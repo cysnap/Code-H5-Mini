@@ -1,0 +1,16 @@
+/*  
+Theme Name:Codename H - Kudos
+Theme URI:http://livesino.net
+Description:<a href="http://livesino.net/">LiveSino.net</a>.Theme Codename H .
+Version: Rev.75
+Author: Picturepan2
+Author URI:http://livesino.net
+THEME CREATION BY PICTUREPAN2.
+*/
+/* Kudos */
+.kudos{width:auto;height:auto;over-flow:hidden;margin-top:80px;}
+.kudos a,.kudos a:visited{color:#B7CCE3;}
+.kudos a:hover{color:#6893B8;}
+.kudos-ads{height:90px;padding:0 108px;}
+.kudos-title,.keywords{width:auto;height:auto;margin:20px 30px;}
+.kudos h3{color:#6994B9;font-size:16px;line-height:2em;}

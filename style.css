@@ -1,0 +1,254 @@
+/*  
+Theme Name:New Code H
+Theme URI:http://www.maxbeta.com/about
+Description:由 潇洒哥 via MaxBeta 修改的一个非常适合新闻站点的主题。并且内建了首页图片轮播功能，大致实现了各类浏览器的兼容。
+Version: Rev.1.6
+Author: 潇洒哥
+Author URI:http://y0ng.com
+此主题基于Livesino发布的版本修改而成，并在此感谢！经过大量的修改，已经看不到多少livesino的痕迹了。
+*/
+*{padding:0; margin:0}
+body{font:14px Arial,sans-serif,"Heiti SC","微软雅黑";margin:0;padding:0;}
+#main{background:#E5ECF4 url(http://imgcdn.sinaapp.com/new-code-h/images/bg_top.png) repeat-x center top;}
+img{border:none;}
+p{padding:5px; line-height:20px;}
+h1,h2,h3,h4{font-weight:normal;}
+a{color:#036;text-decoration:none;}
+a:visited{color:#036;text-decoration:none;}
+a:hover{color:#79A5D6;text-decoration:none;}
+.comment-submit,.content h2,.search-input,.form-textarea,input{font:12px "Microsoft YaHei","宋体","Segoe UI",Tahoma,Arial;}
+.content h2{margin:0;font-size:16px;font-weight:bold;line-height:130%;padding:4px;color:#0A328C;text-shadow: #B3D9E8 0px 0px 3px;}
+.content h2 a,.content h2 a:visited{color:#0A328C;text-decoration:none;letter-spacing: 1px;}
+.content h2 a:hover{color:#79A5D6;text-decoration:none;}
+.content h3{margin:8px 0 1px 0;}
+.content h3,.sidebar h2{color:#6994B9;font-size:16px;}
+.wp-caption{background-color: #F3F3F3;border: 1px solid #DDD;border-radius: 3px 3px;margin: 10px;padding-top: 4px;text-align: center;}
+.clearfix{clear:both;}
+.nova-l{float:left;}
+.nova-r{float:right;}
+.nova-l-h{width:950px;margin:15px auto 20px;}
+/* Structure */
+.wrapper{margin:5px auto 10px;width:950px;text-align:left;overflow:hidden;}
+.header{padding:10px 0 0 0;margin: 0 auto;text-align: left;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/header_bg.jpg);}
+.content{width:635px;float:left;margin:5px 0 0;}
+.sidebar{width:300px;float:right;}
+.footer{clear:both;height:80px;border-top: 1px solid #eee;background: #2b3d4c;}
+.footer img{display:none;}
+/* Header Nav */
+.nav {margin:0 auto;background: rgba(121, 165, 214, 0.31);}
+.nav ul{list-style: none;padding:0 15px;margin:0 auto;width: 950px;}
+.nav ul li{margin:0;display: inline;border-right:1px solid #ccc;}
+.nav ul li a{margin:5px 10px;line-height:26px;text-shadow:0 1px 1px #fff;padding:5px;}
+.nav ul li a:hover{background:#FFF6BF;}
+.nav-icon img{background-color: #fff; width:45px;height:45px;padding:2px;margin:7px 0 0 25px;border-radius: 30px;border: 1px solid #ccc; transition: transform 0.8s ease-out; -webkit-transition: -webkit-transform 0.8s ease-out; -moz-transition: -moz-transform 0.8s ease-out;}
+.nav-icon img:hover{border: 1px solid #036;transform: rotateZ(360deg);-webkit-transform: rotateZ(360deg); -moz-transform: rotateZ(360deg);}
+
+#random_quotes{color:#6994B9;margin:5px 20px 5px 0;display:block;}
+/* Flat Image*/
+.flat_image ul{overflow: hidden;border-radius: 5px;margin:10px auto;display:block;}
+.flat_image ul li{float:left;width: 184px;display:block;margin:2px 3px;}
+.flat_image ul li a{color:white;display:block;}
+.flat_image ul li a img {width: 182px;height:140px;border:1px solid #fff;}
+.flat_image ul li a span{padding:5px;width:172px;margin: -39px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;height:28px;text-shadow: 0 0 15px #000;}
+/* Header Search */
+.search{height:26px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) repeat-x 0 -172px;}
+.search-input{padding:5px;border:0;background:transparent;color:#6080A5;width:260px;}
+.search-submit{width:24px;height:22px;margin-top:1px;border:0;cursor:pointer;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 5px -52px;}
+.postform{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:left;}
+.postform_r{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:right;}
+
+/* Header Logo */
+#description{font-size:13px;color:#6BAAC2;}
+
+/* Header Widget */
+.header-widget{padding:10px 5px 0 0;text-align:right;font-size: 12px;}
+.live-translator{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 0;}
+.im-control{padding-left:20px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -36px;}
+.webslices{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -17px;}
+.headflash{overflow:hidden;height:250px;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x;}
+.headflash_border{height:26px;overflow:hidden;background: #F1F9FC;}
+.headflash_border p {padding:0 0 0 20px;line-height:23px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 5px -149px;}
+.headrcmd{height:250px;width:370px;float:right;overflow:hidden;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x;}
+.headsgst{border-bottom:1px dashed #DDD;list-style:none;padding:3px 5px;}
+.headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow: hidden;background:url(http://imgcdn.sinaapp.com/new-code-h/images/rcmd.gif) no-repeat 1px 2px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:18px;}
+.headsgst ul li a{float:left;}
+.headsgst ul li span{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
+.headsgst dl dt{text-align:center;font-size:16px;font-weight:bold;background:#FFF6BF;color:#514721;border:1px solid #FFD324;padding:5px 0;}
+.headsgst dl dd{line-height:18px;text-indent:2em;word-break:break-all;padding:5px 0;}
+.headads {padding:10px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/635x80_ads_bg.jpg) no-repeat;}
+
+/* flashNews */
+.flashNews {float:left;position:relative;width:260px;height:250px;overflow:hiddencom;border:1px solid #fff;}
+.flashNews ul {list-style-position: inside;}
+.flashNews ul li {float:left;text-align:center;list-style: none;}
+.flashNews ul li a {display:block;color:#6994B9;background:#EEE;}
+.flashNews ul li a span{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:38px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
+.flashNews img {max-width:260px;height:auto;}
+.flashNews ul.rslides_tabs {position:absolute;z-index:10;bottom:50px;right:0;margin:0 5px 5px 0;}
+.flashNews ul.rslides_tabs li{padding:3px;}
+.flashNews ul.rslides_tabs li a{text-indent: -9999px;overflow: hidden;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;background: #ccc;background: rgba(0,0,0, .2);display: inline-block;_display: block;*display: block;-webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);-moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);width: 9px;height: 9px;}
+.flashNews ul.rslides_tabs li.rslides_here a{background: rgba(0,0,0, .8);background: #222;}
+/* Content */
+.post{padding:15px 5px 0;overflow:hidden;}
+.post img{max-width:550px;}
+.post-block {margin:10px 0 0;background-color:#fff;}
+.post-title{color:#6994B9;}
+.post-title-new{background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/new-icon.gif) no-repeat 0 0;}
+.post-info,.post-date,.post-author,.post-cat,.post-edit{padding:5px;margin-right:5px;font-size:11px;line-height:20px;}
+.post-count{float:right;margin:-25px 0 0 0;color:#eee;font-size:26px;font-style:italic;padding:0 18px 0 0;font-weight:bold;}
+.post-comments{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -133px;}
+.post-add-comment{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -110px;}
+.post-tags{float:left;padding:0 0 0 18px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -38px;}
+.post-bottom {background:#F5F5F5;border-bottom: 1px dashed #ccc;list-style:none;margin:0 -5px;padding:10px 5px;height:16px;}
+.post-single{margin:0 0 15px 0;overflow:hidden;}
+.post-single-title{color:#6994B9;text-align:center;padding-bottom:5px;margin-bottom:5px;border-bottom:#DDD solid 1px;}
+.post-single-info{padding:5px;margin-right:5px;font-size:11px;}
+.post-single-info img{width:13px;height:13px;margin-bottom:-2px;}
+.post-single-cat-img{float:right;}
+.attachment-thumbnail{border:1px solid #CCC;margin:0 3px;padding:1px;}
+.tagcloud a{line-height:120%;text-align:center;color:#036;padding:0 3px;}
+.tagcloud a:hover{background-color:#6994B9;color:#FFF;text-decoration:none;}
+
+/* Entry */
+.entry{padding:0;margin:0 0 5px 0;}
+.entry p img{max-width:600px;}
+.entry p iframe{display:block;margin:0 auto;}
+.entry ul ,.entry ol  {margin:8px 0 8px 55px;}
+.entry ul li ,.entry ol li {padding:3px 0;}
+.entry p{word-break:break-all;}
+.entry blockquote{color:#555;min-height:50px;margin: 5px 10px 5px 0px;padding: 0px 10px 0px 50px;border-left:4px solid #DDD;background:url(http://imgcdn.sinaapp.com/new-code-h/images/quote.gif) no-repeat 15px top;}
+.entry table{border:0;}
+.entry_ads {text-align:center;border-bottom:#DDD solid 1px;margin-bottom:10px;padding-bottom:10px;}
+.more-link{background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -94px;padding-left:18px;}
+.list li{width:250px;float:left;}
+.navigation{padding-top:5px;}
+.post_navigation {background: #F1F9FC;padding:5px;margin:0 0 -10px;}
+.post_navigation a {color:#AAA;}
+.previous-entries a{width:290px;display:block;padding-left:18px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -228px;}
+.next-entries a{width:290px;display:block;text-align:right;padding-right:18px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 291px -204px;}
+.aligncenter{display: block;margin-left: auto;margin-right: auto;}
+
+/* Post Meta */
+.meta_hover{background:#FBFBFB;border:1px solid #DDD;margin:10px 0;}
+.meta{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;margin:10px 0;}
+
+/* Sidebar */
+.sidebar ul li ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 14px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -149px;border-bottom:1px dashed #E1F3F7;line-height: 22px;}
+.sidebar h2 {background: #F1F9FC;padding: 5px 15px;}
+.sidebar-li{width:300px;margin:0;list-style:none;padding:0;}
+.sidebar-rcmd-content{background: #E1F3F7;list-style:none;}
+.sidebar-rcmd-content a{color:#036;font-weight: bold;font-size:110%;}
+.sidebar-rcmd-content a:hover{color:#79a5d6;}
+.sidebar-rcmd-content p{font-size:13px;line-height:15px;text-indent: 2em;overflow:hidden;}
+.sidebar-rcmd-content dl{word-break: break-all;border-bottom: 1px dashed #CCC;padding:10px 5px;}
+.thumbnail{float:right;margin:0 0 0 5px;border:1px solid #ccc;}
+.sidebar-rcmd-content small{color:#555;}
+.sidebar-rcmd-data {background-color: #F7FFD4;}
+.sidebar-rcmd-data-odd {background-color: #F7FBF3;}
+.sidebar-rssfeed{padding-left:20px;line-height:19px;font-size:14px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -73px;}
+.sidebar-rssfeed a,.sidebar-rssfeed a:hover{color:#CB5C11;}
+.sidebar-rssitems a{color:#666;}
+.sidebar-title{padding:2px 0 0;}
+.sidebar-title a{font-size:11px;}
+.sidebar-li{width:300px;margin:0;list-style:none;padding:5px 0;}
+.sidebar-widget{margin:5px 0 5px 0;color:#666;}
+.sidebar-tags a{color:#666;}
+.sidebar-comment{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;}
+.sidebar-comment dl{border-bottom:1px dashed #CCC;padding:5px;}
+.sidebar-comment dd{font-size:14px;line-height:120%;word-break: break-all;}
+.sidebar-comment dt{text-align:right; line-height:110%; font-size:11px;color:gray; padding:5px 0 0 0;}
+.sidebar-comment dl dt span {font-size:11px;font-style:italic;}
+.sidebar-count{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
+.mobile {background: url(http://imgcdn.sinaapp.com/new-code-h/images/mobile.gif) no-repeat 0 0;border: 1px solid #E1F3F7;height:60px;}
+.sbsgst{background: transparent;border:1px solid #E1F3F7;margin:5px 0;list-style:none;padding:5px;}
+
+/*list_archives*/
+.list_archives{height:25px;}
+
+/*Tag Cloud*/
+.wp-tag-cloud {width:85px;float:left;}
+.wp-tag-cloud li{font-size:16px;list-style:none;}
+.wp-tag-cloud li a{background:#eef5e1;color:#036;display:block;line-height:14px;padding:10px 5px 10px 10px;margin-left:-14px;}
+.wp-tag-cloud li a:hover{background:#e4efd5;color:#79A5D6;text-decoration:none}
+
+/* Comments */
+.comment-main{background-color: #F5F8FD;border:1px solid #C8D8F2;margin:5px 0;padding:5px;}
+.comments-title{background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -132px;padding-left:22px;}
+.comments-o a,.comments-o a:hover{color:#CB5C11;font-size:12px;}
+.comment,.trackback,.pingback{margin:5px 0;padding:5px 10px;}
+.comment-list{background-color:#FDFDFD;margin:0 -5px;border-bottom:1px dotted #CCC;}
+.comment-list p{font-size:14px;line-height:150%;padding:5px 10px;}
+.comment-list span{font-size:11px;}
+.comment-list blockquote{margin:10px;padding:5px;border:1px dashed #ccc;background:#FEFEFE;}
+.comment-list blockquote blockquote{margin:5px 10px;padding:5px;border:1px dashed #ccc;background:#f7f7f7;}
+.comment-bottom {padding:5px;font-size:11px;float:right;}
+.commentmeta{color:#036;font-size:11px;padding:3px 10px;}
+.commentmeta span {border-bottom: 1px solid #E1F3F7;padding-bottom: 3px;}
+#commentform{margin:5px 0;}
+.form-textarea,#trackback{border:1px solid #CCCCCC;padding:2px 5px 2px 5px;background:#FAFAFA;}
+.form-textarea:hover,#trackback:hover{border:1px solid #6994B9;background:#FFF;}
+.comments-input{border:none;border-bottom:1px solid #CCC;padding:2px 5px 2px 5px;background:transparent;}
+.form-textarea{width:90%;height:120px;}
+.form-submit{width:115px;height:30px;}
+.comment-main-content {border-top:1px dotted #AAA;padding:10px 0;overflow:hidden;}
+.cm-odd {background-color:#f7f7f7;}
+
+/* Footer */
+.footer-credits{width:950px;height:auto;padding:30px 0 0px 0;margin:0 auto;}
+.footer-credits table {cellpadding:0; cellspacing:0; width:100%;}
+.footer-credits span{display: block;padding:2px;}
+.footer-credits span a{color:#6994B9;}
+.footer-fuss{color:#666;font-size:10px;}
+.footer-vaule{color:#6994B9;}
+/* Misc */
+.notice{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;list-style:none;padding:5px;}
+.video{background:#E6EFC2;color:#264409;border:1px solid #C6D880;margin:5px 0;padding:4px 7px;}
+.video a{color:#264409;}
+.fuss{font-size:14px;background:#FFF6BF;color:#514721;border:1px solid #FFD324;margin:0 0 10px;}
+.nova{width:auto;padding:5px 8px;}
+.cat-img{float:right;}
+.white_top {border-top:1px solid #FFF;}
+
+/*For Topic page*/
+.topic{padding:5px;border-bottom:1px dashed #ccc;}
+.topic ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 16px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -149px;}
+.topic a {color: #222;}
+.topic small{color:#555;}
+
+/*For Tag page*/
+.tag_node{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;border:1px solid #E1F3F7;list-style:none;padding:5px 8px;margin:5px 0;}
+
+/*page_navi*/
+.page_navi{padding:3px 0px 4px;text-align:center;background:#F1F9FC;}
+.page_navi a,.page_navi .page-numbers{color:#4b72a9;text-decoration:none;padding:0 5px;margin:0 2px;}
+.page_navi a:hover,.page_navi .current{color:#F60;}
+.page_navi .dots,.page_navi .pages{border:none;padding:3px 8px;}
+
+/* Begin Calendar */
+#wp-calendar {border: 1px solid #E1F3F7;empty-cells: show;width: 300px;background-color: #ffffff;color:#000;text-align:center;}
+#wp-calendar #next a {padding-right: 1px;text-align: right;text-decoration: none;background-color: #ffffff;}
+#wp-calendar #prev a {padding-left: 1px;text-align: left;text-decoration: none;background-color: #ffffff;}
+#wp-calendar a {display: block;color: #036;background-color: #EEE;}
+#wp-calendar caption {text-align: left;color: #6994B9;font-size: 16px;background-color:#F1F9FC;text-transform: uppercase;border-top:1px solid #E1F3F7;border-right:1px solid #E1F3F7;border-left:1px solid #E1F3F7;padding:3px 15px;}
+#wp-calendar td {padding: 0px;text-align: center;background-color: #ffffff;}
+#wp-calendar #today a{color: red;}
+#wp-calendar td.pad:hover { /* Doesn't work in IE */background-color: #ffffff; }
+/* End Calendar */
+
+/* Kudos */
+.kudos{text-align:center;width:450px;height:auto;margin:5% auto;box-shadow: 1px 2px 4px rgba(3, 25, 46, 0.31);border-radius: 50px 0;background:#fff;border:3px solid #B7CCE3;}
+.kudos a,.kudos a:visited{color:#B7CCE3;}
+.kudos a:hover{color:#6893B8;}
+.kudos-ads{height:90px;padding:0 108px;}
+.kudos-title,.keywords{width:auto;height:auto;margin:20px 30px;}
+.kudos-title h1{font-size:24px;}
+.kudos-title p{color:#6893B8;}
+.keywords ul li{list-style:none;padding:5px 0;border-bottom:1px dashed #E5ECF4;}
+.kudos h3{color:#6994B9;font-size:16px;line-height:2em;}
+
+/*WUMII*/
+.wumii-footer{display:none;}
+.ds-powered-by{display:none;}
+.wumii-hook{padding:5px 0;}
+/*Duoshuo CSS*/
+#ds-thread,.wumii-comment  {padding:10px;border:1px solid #eee; background-color:#fff;}
