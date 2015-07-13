@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<title><?php if(is_single() || is_page() || is_archive() || is_404() || is_search()) : wp_title('_',true,'right'); endif; bloginfo('name');  if( $paged == "" ) $pagenum = "";else echo $pagenum = " - 第 ".$paged." 页"; ?></title>
@@ -23,7 +23,7 @@
 
 <body id="main">
 
-<div class="header">
+<header class="header">
 	<div class="nova-l-h">
 			<div class="nova-l"><a href="<?php echo get_settings('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.gif" height="60px" alt="<?php bloginfo('name'); ?>" /></a></div>
 			<div class="nova-r">
@@ -31,8 +31,8 @@
 			</div>
 			<div class="clearfix"></div>
 	</div>
-	<?php wp_nav_menu( array( 'theme_location' => 'header-menu','container_class' => 'nav','items_wrap' => '<ul>%3$s</ul>', ) ); ?>
-</div>
+	<?php wp_nav_menu( array( 'theme_location' => 'header-menu','container'=>'nav','container_class' => 'nav','items_wrap' => '<ul>%3$s</ul>', ) ); ?>
+</header>
 
 <div class="wrapper">
 
