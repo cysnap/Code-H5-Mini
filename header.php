@@ -31,7 +31,7 @@
 			</div>
 			<div class="clearfix"></div>
 	</div>
-	<?php wp_nav_menu( array( 'theme_location' => 'header-menu','container'=>'nav','container_class' => 'nav','items_wrap' => '<ul>%3$s</ul>', ) ); ?>
+	<nav class="nav"><?php wp_nav_menu( array( 'theme_location' => 'header-menu','container' => false,'items_wrap' => '<ul>%3$s</ul>', ) ); ?></nav>
 </header>
 
 <div class="wrapper">
