@@ -1,5 +1,5 @@
 </div> 
-<div class="footer">
+<footer class="footer">
 	<div class="footer-credits">
 		<?php if ( !is_single() ) : ?>
 		<table><tr>
@@ -18,7 +18,7 @@
 
 		<?php if(is_single() || is_page()): add_duoshuo_js_to_footer(); endif;?>
 	</div>
-</div>
+</footer>
 
 <?php wp_footer(); ?>
 
