@@ -7,8 +7,7 @@ Author: 潇洒哥
 Author URI:http://y0ng.com
 */
 *{padding:0; margin:0}
-body{font:14px Arial,sans-serif,"Heiti SC","微软雅黑";margin:0;padding:0;}
-#main{background:#E5ECF4 url(http://imgcdn.sinaapp.com/new-code-h/images/bg_top.png) repeat-x center top;}
+body{font:14px Arial,sans-serif,"Heiti SC","微软雅黑";margin:0;padding:0;background:#E5ECF4 url(http://imgcdn.sinaapp.com/new-code-h/images/bg_top.png) repeat-x center top;}
 img{border:none;}
 p{padding:5px; line-height:20px;}
 h1,h2,h3,h4{font-weight:normal;}

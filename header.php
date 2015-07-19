@@ -21,7 +21,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body id="main">
+<body>
 
 <header class="header">
 	<div class="nova-l-h">
@@ -34,7 +34,7 @@
 	<nav class="nav"><?php wp_nav_menu( array( 'theme_location' => 'header-menu','container' => false,'items_wrap' => '<ul>%3$s</ul>', ) ); ?></nav>
 </header>
 
-<div class="wrapper">
+<main role="main" class="wrapper">
 
 	<div class="flat_image">
 		<ul>

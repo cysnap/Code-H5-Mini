@@ -1,4 +1,4 @@
-</div> 
+</main> 
 <footer class="footer">
 	<div class="footer-credits">
 		<?php if ( !is_single() ) : ?>
