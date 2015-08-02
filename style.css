@@ -139,10 +139,10 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .sidebar-rcmd-content a:hover{color:#79a5d6;}
 .sidebar-rcmd-content p{font-size:13px;line-height:15px;text-indent: 2em;overflow:hidden;}
 .sidebar-rcmd-content dl{word-break: break-all;border-bottom: 1px dashed #CCC;padding:10px 5px;}
+.sidebar-rcmd-content dl:nth-child(2n){background-color:#F7FBF3;}
+.sidebar-rcmd-content dl:nth-child(2n-1){background-color:#F7FFD4;}
 .thumbnail{float:right;margin:0 0 0 5px;border:1px solid #ccc;}
 .sidebar-rcmd-content small{color:#555;}
-.sidebar-rcmd-data {background-color: #F7FFD4;}
-.sidebar-rcmd-data-odd {background-color: #F7FBF3;}
 .sidebar-rssfeed{padding-left:20px;line-height:19px;font-size:14px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -73px;}
 .sidebar-rssfeed a,.sidebar-rssfeed a:hover{color:#CB5C11;}
 .sidebar-rssitems a{color:#666;}

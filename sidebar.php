@@ -67,10 +67,8 @@
 			<div class="sidebar-rcmd-content">
 				<?php add_filter('posts_where', 'filter_where');?>
 				<?php query_posts($query_string . '&meta_key=views&orderby=meta_value_num&order=DESC&showposts=12'); ?>
-				<?php $rcmdcounter = 0; ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php $rcmdcounter++; ?>
-					<dl class="sidebar-rcmd-data<?php echo($rcmdcounter % 2 == 0 ? '-odd' : ''); ?>">
+					<dl>
 						<dt><h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"> <?php echo mb_strimwidth(get_the_title(), 0, 37, '...'); ?> </a></h4></dt>
 						<dd>
 							<p><?php if ( get_post_meta( get_the_ID(), 'thumbnail', true ) ) : ?><a href="<?php the_permalink() ?>" rel="bookmark"><img class="thumbnail" src="<?php echo get_post_meta( get_the_ID(), 'thumbnail', true ) ?>" alt="<?php the_title(); ?>" /></a>
