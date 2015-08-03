@@ -249,7 +249,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /*Media Queries*/
 @media screen and (max-width: 600px) {
-	.nav-icon,.nav,.flat_image,.sidebar,.headflash,.footer,.post-bottom .nova-r ,.headflash_border,.nova,.post_navigation,.nova-l-h .nova-r,.fuss{display:none;}
+	.nav-icon,.nav,.flat_image,.sidebar,.headflash,.footer,.post-bottom .nova-r ,.headflash_border,.post_navigation,.nova-l-h .nova-r,.fuss{display:none;}
 	.wrapper{width:100%}
 	.nova-l-h,.content,.footer-credits{width:100%;}
 	.content{margin:-15px auto 0 auto;}
