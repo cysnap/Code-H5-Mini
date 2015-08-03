@@ -244,9 +244,14 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .keywords ul li{list-style:none;padding:5px 0;border-bottom:1px dashed #E5ECF4;}
 .kudos h3{color:#6994B9;font-size:16px;line-height:2em;}
 
-/*WUMII*/
-.wumii-footer{display:none;}
-.ds-powered-by{display:none;}
-.wumii-hook{padding:5px 0;}
 /*Duoshuo CSS*/
 #ds-thread,.wumii-comment  {padding:10px;border:1px solid #eee; background-color:#fff;}
+
+/*Media Queries*/
+@media screen and (max-width: 600px) {
+	.nav-icon,.nav,.flat_image,.sidebar,.headflash,.footer,.post-bottom .nova-r ,.headflash_border{display:none;}
+	.wrapper{width:100%}
+	.nova-l-h,.content,.footer-credits{width:100%;}
+	.content{margin:-15px auto 0 auto;}
+	.nova-l-h{margin:15px auto 0;}
+}
