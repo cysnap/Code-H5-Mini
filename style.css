@@ -47,7 +47,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .flat_image ul li{float:left;width: 184px;display:block;margin:2px 3px;}
 .flat_image ul li a{color:white;display:block;}
 .flat_image ul li a img {width: 182px;height:140px;border:1px solid #fff;}
-.flat_image ul li a span{padding:5px;width:172px;margin: -42px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:14px;text-shadow: 0 0 15px #000;}
+.flat_image ul li a span{padding:5px;width:172px;margin: -46px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:16px;text-shadow: 0 0 15px #000;}
 /* Header Search */
 .search{height:26px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) repeat-x 0 -172px;}
 .search-input{padding:5px;border:0;background:transparent;color:#6080A5;width:260px;}
