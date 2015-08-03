@@ -253,6 +253,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 	.wrapper{width:100%}
 	.nova-l-h,.content,.footer-credits{width:100%;}
 	.content{margin:-15px auto 0 auto;}
-	.nova-l-h{margin:15px auto 0;}
+	.nova-l-h{margin:15px auto 0;text-align:center;}
+	.nova-l{float:none;margin:0 auto;}
 	.entry p img{width:95%;height:95%;}
 }
