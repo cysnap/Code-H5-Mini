@@ -35,11 +35,12 @@ a:hover{color:#79A5D6;text-decoration:none;}
 /* Header Nav */
 .nav {margin:0 auto;background: rgba(121, 165, 214, 0.31);}
 .nav ul{list-style: none;padding:0 15px;margin:0 auto;width: 950px;}
-.nav ul li{margin:0;display: inline;border-right:1px solid #ccc;}
-.nav ul li a{margin:5px 10px;line-height:26px;text-shadow:0 1px 1px #fff;padding:5px;}
+.nav ul li{margin:0;display: inline;background:linear-gradient(#c3d0d0, #2d2c2e, #b2bdbd) no-repeat right / 1px 15px;}
+.nav ul li:last-child{background:none;}
+.nav ul li a{line-height:36px;text-shadow:0 1px 1px #fff;padding:10px 15px;transition:all 0.3s ease-in;}
 .nav ul li a:hover{background:#FFF6BF;}
 .nav-icon img{background-color: #fff; width:45px;height:45px;padding:2px;margin:7px 0 0 25px;border-radius: 30px;border: 1px solid #ccc; transition: transform 0.8s ease-out; -webkit-transition: -webkit-transform 0.8s ease-out; -moz-transition: -moz-transform 0.8s ease-out;}
-.nav-icon img:hover{border: 1px solid #036;transform: rotateZ(360deg);-webkit-transform: rotateZ(360deg); -moz-transform: rotateZ(360deg);}
+.nav-icon img:hover{border: 1px solid #036;transform: rotateZ(360deg);/}
 
 #random_quotes{color:#6994B9;margin:5px 20px 5px 0;display:block;}
 /* Flat Image*/
@@ -47,7 +48,9 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .flat_image ul li{float:left;width: 184px;display:block;margin:2px 3px;}
 .flat_image ul li a{color:white;display:block;}
 .flat_image ul li a img {width: 182px;height:140px;border:1px solid #fff;}
-.flat_image ul li a span{padding:5px;width:172px;margin: -46px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:16px;text-shadow: 0 0 15px #000;}
+.flat_image ul li a img:hover{border:1px solid #FFF6BF;transition:all 0.3s ease-in;}
+.flat_image ul li a span{padding:5px;width:172px;margin: -46px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:16px;text-shadow: 0 0 15px #000;transition:all 0.3s ease-in;}
+.flat_image ul li a span:hover{background-color:#FFF6BF;}
 /* Header Search */
 .search{height:26px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) repeat-x 0 -172px;}
 .search-input{padding:5px;border:0;background:transparent;color:#6080A5;width:260px;}
