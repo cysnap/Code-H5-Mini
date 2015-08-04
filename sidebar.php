@@ -123,15 +123,6 @@
 		</li>
 		<?php } ?>
 		
-		<?php if(!is_home() && !is_crawler() && !is_attachment()) {?>
-		<li class="sidebar-li">
-			<h2 class="sidebar-title">标签云</h2>
-			<div class="notice nova">
-			<?php wp_tag_cloud('smallest=11&largest=14&format=flat&orderby=count&order=DESC&exclude=82'); ?>
-			</div>
-		</li>
-		<?php } ?>
-		
 		<?php if ( !is_single() && !is_tag() && !is_paged() && !is_crawler() ) { ?>
 		<li class="sidebar-li">
 			<h2 class="sidebar-title">本月热评文章</h2>
@@ -139,28 +130,6 @@
 				<ul class="list_page"><?php most_commented_posts(); ?></ul>
 			</div>
 		</li>
-		<?php } ?>
-		
-		<?php if ( is_home() && !is_crawler() ) { ?>
-		<li class="sidebar-li">
-			<h2 class="sidebar-title">存档</h2>
-			<div class="notice list_archives">
-			<form action="<?php bloginfo('url'); ?>/" method="get">
-				<?php
-				$select = wp_dropdown_categories('show_option_none=选择分类&show_count=1&orderby=name&echo=0');
-				$select = preg_replace("#<select([^>]*)>#", "<select$1 onchange='return this.form.submit()'>", $select);
-				echo $select;
-				?>
-			<noscript><input  type="submit" value="View" /></noscript>
-			</form>
-
-			<select class="postform_r" onChange='document.location.href=this.options[this.selectedIndex].value;'>
-				<option><?php echo attribute_escape(__('Select Month')); ?></option>
-				<?php wp_get_archives('type=monthly&limit=12&format=option&show_post_count=1'); ?>
-			</select>
-			</div>
-		</li>
-
 		<?php } ?>
 		
 		<?php if (!is_home()) { ?>

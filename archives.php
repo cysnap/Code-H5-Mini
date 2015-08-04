@@ -5,7 +5,7 @@ Template Name: All Topics
 ?>
 <?php get_header(); ?>
 	<div class="fuss nova">所有新闻主题</div>
-	<div class="post meta" id="about">
+	<div class="post meta">
 		<?php 
 		$categories = get_categories();
 		foreach ($categories as $cat) : $catid = $cat->cat_ID; query_posts("showposts=1&cat=$catid"); ?>
@@ -14,6 +14,8 @@ Template Name: All Topics
 		<?php endforeach; ?>
 		<?php wp_reset_query(); ?>
 	</div>
+	<div class="fuss nova">所有新闻标签</div>
+	<div class="post meta"><?php wp_tag_cloud('smallest=11&largest=18&format=flat&orderby=count&order=DESC'); ?></div>
 </div>
 
 <div class="sidebar">
@@ -31,17 +33,6 @@ Template Name: All Topics
 		</div>
 		</li>
 		
-		<li class="sidebar-li">
-		<?php get_calendar();?>
-		</li>
-		
-		<li class="sidebar-li">
-			<h2 class="sidebar-title">标签云</h2>
-			<div class="notice nova">
-			<?php wp_tag_cloud('smallest=11&largest=18&format=flat&orderby=count&order=DESC'); ?>
-			</div>
-		</li>
-
 		<li class="sidebar-li">
 			<h2 class="sidebar-title">存档</h2>
 			<div class="notice list_archives">
