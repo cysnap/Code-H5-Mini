@@ -79,11 +79,11 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .headads {padding:10px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/635x80_ads_bg.jpg) no-repeat;}
 
 /* flashNews */
-.flashNews {float:left;position:relative;width:260px;height:250px;overflow:hiddencom;border:1px solid #fff;}
+.flashNews {float:left;position:relative;width:260px;height:250px;overflow:hidden;border:1px solid #fff;}
 .flashNews ul {list-style-position: inside;}
 .flashNews ul li {float:left;text-align:center;list-style: none;}
 .flashNews ul li a {display:block;color:#6994B9;background:#EEE;}
-.flashNews ul li a span{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:38px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
+.flashNews ul li a span{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:34px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
 .flashNews img {max-width:260px;height:auto;}
 .flashNews ul.rslides_tabs {position:absolute;z-index:10;bottom:50px;right:0;margin:0 5px 5px 0;}
 .flashNews ul.rslides_tabs li{padding:3px;}
