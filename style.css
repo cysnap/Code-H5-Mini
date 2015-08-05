@@ -245,9 +245,9 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /*Media Queries*/
 @media screen and (max-width: 800px) {
-	.nav-icon,.nav,.flat_image,.sidebar,.flashNews,.post-bottom .nova-r ,.headflash_border,.post_navigation,.nova-l-h .nova-r,.fuss{display:none;}
+	.nav-icon,.nav,.flat_image,.sidebar,.flashNews,.post-bottom>.nova-r,.headflash_border,.post_navigation,.nova-l-h>.nova-r,.fuss{display:none;}
 	.wrapper,.headrcmd,.footer{width:100%}
-	.nova-l-h,.content,.footer-credits,.headsgst{width:92%;margin:0 auto;float:none;}
+	.nova-l-h,.content,.footer-credits,.headsgst{width:auto;margin:0 auto;float:none;}
 	.nova-l-h{margin:15px auto 0;text-align:center;}
 	.nova-l{float:none;margin:0 auto;}
 	.entry p img{width:95%;height:95%;}
