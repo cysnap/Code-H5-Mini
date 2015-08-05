@@ -124,9 +124,6 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .navigation{padding-top:5px;}
 .post_navigation {background: #F1F9FC;padding:5px;margin:0 0 -10px;}
 .post_navigation a {color:#AAA;}
-.previous-entries a{width:290px;display:block;padding-left:18px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -228px;}
-.next-entries a{width:290px;display:block;text-align:right;padding-right:18px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 291px -204px;}
-.aligncenter{display: block;margin-left: auto;margin-right: auto;}
 
 /* Post Meta */
 .meta_hover{background:#FBFBFB;border:1px solid #DDD;margin:10px 0;}
@@ -195,8 +192,8 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /* Footer */
 .footer-credits{width:950px;height:auto;padding:20px;margin:0 auto;}
-.footer-credits span{display: block;padding:2px;}
-.footer-credits span a{color:#6994B9;}
+.footer-credits span{display: block;padding:2px;font-size:11px;color:#6994B9}
+.footer-credits span a{color:#F60;}
 /* Misc */
 .notice{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;list-style:none;padding:5px;}
 .video{background:#E6EFC2;color:#264409;border:1px solid #C6D880;margin:5px 0;padding:4px 7px;}
