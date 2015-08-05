@@ -3,12 +3,6 @@
 <div class="post-single clearfix" id="post-<?php the_ID(); ?>">
 
 	<div class="fuss nova">您的位置： <a href="<?php echo get_settings('home'); ?>" title="首页">首页</a>&nbsp;&raquo;&nbsp;<?php the_category(' &gt; '); ?>&nbsp;&raquo;&nbsp;<a href="<?php the_permalink() ?>" rel="bookmark" title="到 <?php the_title(); ?> 的永久链接"><?php the_title(); ?></a></div>
-	
-	<div class="post_navigation">
-		<div class="previous-entries nova-l"><?php previous_post_link('%link') ?></div>
-		<div class="next-entries nova-r"><?php next_post_link('%link') ?></div>
-		<div class="clearfix"></div>
-	</div>
 
 	<div class="meta nova">
 
