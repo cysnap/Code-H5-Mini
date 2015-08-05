@@ -36,13 +36,12 @@
 					<?php wp_reset_query(); ?>
 				</ul>
 			</div>
-			<div class="headsgst">
+			<div class="headsgst headsgstads">
 				<?php show_ads(5); ?>
 			</div>
 	</div>
 	<div class="clearfix"></div>
 </div>
-<?php elseif (is_paged()) : pagenavi(); endif; ?>
 
 <div class="post-block">
 	<?php if (is_home()):?>
