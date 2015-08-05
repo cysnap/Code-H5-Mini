@@ -244,7 +244,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 #ds-thread,.wumii-comment  {padding:10px;border:1px solid #eee; background-color:#fff;}
 
 /*Media Queries*/
-@media screen and (max-width: 600px) {
+@media screen and (orientation : portrait)  and (max-width: 721px) {
 	.nav-icon,.nav,.flat_image,.sidebar,.flashNews,.post-bottom .nova-r ,.headflash_border,.post_navigation,.nova-l-h .nova-r,.fuss{display:none;}
 	.wrapper,.headrcmd,.footer{width:100%}
 	.nova-l-h,.content,.footer-credits,.headsgst{width:92%;margin:0 auto;float:none;}
