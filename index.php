@@ -43,6 +43,9 @@
 	<div class="clearfix"></div>
 </div>
 
+<?php endif; ?>
+
+
 <div class="post-block">
 	<?php if (is_home()):?>
 		<div id="top_marquee" class="headflash_border"><?php show_ads(9); ?></div>
