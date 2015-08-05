@@ -247,7 +247,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 @media screen and (max-width: 600px) {
 	.nav-icon,.nav,.flat_image,.sidebar,.flashNews,.post-bottom .nova-r ,.headflash_border,.post_navigation,.nova-l-h .nova-r,.fuss{display:none;}
 	.wrapper{width:100%}
-	.nova-l-h,.content,.footer-credits,.headrcmd{width:100%;}
+	.nova-l-h,.content,.footer-credits,.headrcmd{width:92%;margin:0 auto;}
 	.content{margin:0 auto;}
 	.nova-l-h{margin:15px auto 0;text-align:center;}
 	.nova-l{float:none;margin:0 auto;}
