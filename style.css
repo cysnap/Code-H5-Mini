@@ -70,8 +70,8 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .headflash_border p {padding:0 0 0 20px;line-height:23px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 5px -149px;}
 .headrcmd{height:250px;width:370px;float:right;overflow:hidden;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x;}
 .headsgst{border-bottom:1px dashed #DDD;list-style:none;padding:3px 5px;}
-.headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow: hidden;background:url(http://imgcdn.sinaapp.com/new-code-h/images/rcmd.gif) no-repeat 1px 2px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:18px;}
-.headsgst ul li a{float:left;}
+.headsgst ul li {background:url(http://imgcdn.sinaapp.com/new-code-h/images/rcmd.gif) no-repeat 1px 2px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:18px;}
+.headsgst ul li a{float:left;width: 90%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
 .headsgst ul li span{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
 .headsgst dl dt{text-align:center;font-size:16px;font-weight:bold;background:#FFF6BF;color:#514721;border:1px solid #FFD324;padding:5px 0;}
 .headsgst dl dd{line-height:18px;text-indent:2em;word-break:break-all;padding:5px 0;}
