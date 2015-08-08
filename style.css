@@ -26,7 +26,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .nova-r{float:right;}
 .nova-l-h{width:950px;margin:15px auto 20px;}
 /* Structure */
-.wrapper{margin:5px auto 10px;width:950px;text-align:left;overflow:hidden;}
+.wrapper{margin:5px auto 10px;width:950px;text-align:left;overflow:hidden;display:block;}
 .header{padding:10px 0 0 0;margin: 0 auto;text-align: left;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/header_bg.jpg);}
 .content{width:635px;float:left;margin:5px 0 0;}
 .sidebar{width:300px;float:right;}
