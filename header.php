@@ -28,7 +28,7 @@
 	<div class="nova-l-h">
 			<div class="nova-l"><a href="<?php echo get_settings('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.gif" height="60px" alt="<?php bloginfo('name'); ?>" /></a></div>
 			<div class="nova-r">
-			<?php if(!is_home()) : show_ads(1); else : show_ads(8); endif; ?>
+			<?php if(!is_home()) : dynamic_sidebar( '300x250-Ads' ); else : show_ads(8); endif; ?>
 			</div>
 			<div class="clearfix"></div>
 	</div>
