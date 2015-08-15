@@ -192,9 +192,9 @@ if (function_exists('register_sidebar')) {
 		'id'   => 'widgetized-area',
 		'description'   => 'This is a widgetized area.',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>div>',
+		'after_widget'  => '</div>',
 		'before_title'  => '<h4>',
-		'after_title'   => '</h4>h4>'
+		'after_title'   => '</h4>'
 	));
 
 }
