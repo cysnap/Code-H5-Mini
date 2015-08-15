@@ -8,7 +8,7 @@
 
 		<div class="post-single-title">
 			<h2><?php the_title(); ?></h2>
-			<span class="post-single-info"><?php the_time('Y-m-d H:i'); ?>&nbsp;|&nbsp;<?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>&nbsp;|&nbsp;<?php the_views(); ?>&nbsp;次浏览&nbsp;|&nbsp;<?php comments_popup_link('评论', '1 条评论', '% 条评论'); ?></span>
+			<span class="post-single-info"><?php the_time('Y-m-d H:i'); ?>&nbsp;&nbsp;&nbsp;<?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>&nbsp;&nbsp;&nbsp;<?php the_views(); ?>&nbsp;次浏览&nbsp;&nbsp;&nbsp;<?php comments_popup_link('评论', '1 条评论', '% 条评论'); ?></span>
 		</div>
 		
 		<div class="entry clearfix">
