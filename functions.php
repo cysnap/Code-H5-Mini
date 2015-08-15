@@ -183,5 +183,20 @@ add_filter('page_css_class', 'my_css_attributes_filter', 100, 1);
 function my_css_attributes_filter($var) {
 	return is_array($var) ? array_intersect($var, array('current-menu-item')) : '';
 }
-?>
 
+// add widget support
+if (function_exists('register_sidebar')) {
+
+	register_sidebar(array(
+		'name' => 'Widgetized Area',
+		'id'   => 'widgetized-area',
+		'description'   => 'This is a widgetized area.',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>div>',
+		'before_title'  => '<h4>',
+		'after_title'   => '</h4>h4>'
+	));
+
+}
+
+?>
