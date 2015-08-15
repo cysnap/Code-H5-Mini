@@ -1,17 +1,22 @@
-Welcome to my FIRST HTML5 WordPress theme
+HTML5 WordPress theme : Code-H5-Mini
 ==============
-This theme based on the old theme :New-Code-H
+这个主题是使用之前的New-Code-H修改而来，响应功能使用CSS3的media screen 来实现的，更多的屏幕判断还在开发中（或者说学习中！），目前的判断为屏幕分辨率小于800px的时候会有内容显示的优化，用您的手机试试打开maxbeta.com试试看吧。
+This theme based on the old theme :New-Code-H, Responsive function still in progess, But right now it working with screen with max-width:800px; try it on your mobile deivce.
 
 _____
 
-我去，英文太差我就不继续装b了！
+我去，英文太差您就将就着看吧！！！
 
-##简介：
+##简介（Intro）：
 这个主题是为MaxBeta.COM制作的，也是我个人学习HTML5的一个作业吧。
+This Theme is made for MaxBeta.COM , also a homework for learning HTML5.
 
-为了让第三方也能用这个主题，已经尽量地把一些插件功能写入了function.php，也增加判断，所以不用担心和自己插件有冲突。**就算是有也别找我！！！**
+为了让第三方也能用这个主题，已经尽量地把一些插件功能写入了functions.php，也增加判断，所以不用担心和自己插件有冲突。**就算是有也别找我！！！**
+Most of function was wirtten in funcitons.php, but if you want to costumise the theme exactly as maxbeta.com , you should download the necessary plugins yourslef. **Don't ask me where to get thos plugins**
 
-~~这个主题基于Bootstrap。
+~~这个主题基于Bootstrap。~~
+~~based on bootstrap.~~
 
-##主题安装办法：
+##安装（Installation）:
 直接下载下来扔到你的themes文件夹就可以啦！
+Download the theme file and upload to your theme folder.
