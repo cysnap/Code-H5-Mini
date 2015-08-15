@@ -36,7 +36,7 @@
 </header>
 
 <main role="main" class="wrapper">
-
+<?php if(is_home() || is_single()); ?>
 	<div class="flat_image">
 		<ul>
 			<?php wp_reset_query(); ?>
@@ -50,7 +50,7 @@
 			<?php wp_reset_query(); ?>
 		</ul>
 	</div>
-
+<?php endif;?>
 	<div class="content">
 
 
