@@ -11,7 +11,6 @@
 <div class="post" id="post-<?php the_ID(); ?>">
 	<div class="post-title">
 		<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="到 <?php the_title(); ?> 的永久链接"><?php the_title(); ?></a></h2>
-		<?php edit_post_link(' 编辑', '<span class="post-edit">', '</span>'); ?>
 	</div>
 	
 	<div class="entry clearfix">
