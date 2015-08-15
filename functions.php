@@ -77,7 +77,7 @@ function pagenavi(){
 	for( $i = $current - 3; $i <= $current + 3; $i++ ) {
 		if ( $i > 0 && $i <= $total ) $i == $current ? $links .= '<span class="page-numbers current">'.$i.'</span>' : $links .= pagenavi_link( $i, $i );
 	}
-	if ( $current < $total - 4 ) $links .= '<span class="page-numbers dots">...</span>'. pagenavi_link( $total, $total );
+	if ( $current < $total - 4 ) $links .= '<span class="page-numbers dots">...</span>';
 	if ( $current < $total ) $links .= pagenavi_link( $current + 1, '下一页 &raquo;');
 	$links .= '</div>';
 	echo $links;
