@@ -133,7 +133,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 /* Sidebar */
 .sidebar ul li ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 14px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -149px;border-bottom:1px dashed #E1F3F7;line-height: 22px;}
 .sidebar h2 {background: #F1F9FC;padding: 5px 15px;}
-.sidebar ul li{width:300px;margin:0;list-style:none;padding:0;}
+.sidebar > ul > li{width:300px;margin:0;list-style:none;padding:5px 0;}
 .sidebar-rcmd-content{background: #E1F3F7;list-style:none;}
 .sidebar-rcmd-content a{color:#036;font-weight: bold;font-size:110%;}
 .sidebar-rcmd-content a:hover{color:#79a5d6;}
