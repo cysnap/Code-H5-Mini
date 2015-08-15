@@ -2,9 +2,7 @@
 
 	<ul>
 		<?php if(is_home()) {?>
-		<li>
-			<?php show_ads(3); ?>
-		</li>
+		<?php dynamic_sidebar( '300x250-Ads' ); ?>	
 		<?php } ?>
 		<?php if(!is_single()) {?>
 			<li><div class="mobile"></div></li>
