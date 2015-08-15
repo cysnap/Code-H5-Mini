@@ -206,6 +206,15 @@ if (function_exists('register_sidebar')) {
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>'
 	));
-}
+
+	register_sidebar(array(
+		'name' => '468x60-Ads',
+		'id'   => '468x60-Ads',
+		'description'   => 'This is a 468x60 Ads code area',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => ''
+	));}
 
 ?>
