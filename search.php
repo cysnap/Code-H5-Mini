@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div class="post-block">
 <div class="fuss nova">搜索结果 : <strong><?php the_search_query() ?></strong></div>
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
@@ -23,14 +24,14 @@
 		</div>
 	<?php the_content('',TRUE,''); ?>
 	</div>
-	<div class="post-bottom clearfix"><span class="post-tags"><?php the_tags('', ' - ', ''); ?></span><span class="nova-r"><?php comments_popup_link('参与讨论&nbsp;&raquo;', '1 条评论&nbsp;&raquo;', '% 条评论&nbsp;&raquo;', 'post-comments'); ?>&nbsp;&nbsp;&nbsp;<a class="more-link" href="<?php the_permalink() ?>" title="<?php the_title(); ?>" target="_blank" rel="nofollow">查看全文&nbsp;&raquo;</a></span></div>
 </div>
 
 <?php endwhile; ?>
-<div class="navigation"><div class="previous-entries nova-l"><?php next_posts_link('较旧文章') ?></div> <div class="next-entries nova-r"><?php previous_posts_link('较新文章') ?></div></div>
+<div class="navigation"><div class="previous-entries nova-l"><?php next_posts_link('上一页') ?></div> <div class="next-entries nova-r"><?php previous_posts_link('下一页') ?></div></div>
 <?php else : ?>
 <div class="fuss nova">没有找到文章。尝试再次搜索?</div>
 <?php endif; ?>
+</div>
 </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
