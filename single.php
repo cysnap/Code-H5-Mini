@@ -8,7 +8,7 @@
 
 		<div class="post-single-title">
 			<h2><?php the_title(); ?></h2>
-			<span class="post-single-info"><?php the_author(); ?>&nbsp;发表于&nbsp;:&nbsp;<?php the_time('Y-m-d H:i'); ?>&nbsp;|&nbsp;主题&nbsp;:&nbsp;<?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>&nbsp;|&nbsp;<?php the_views(); ?>&nbsp;次浏览&nbsp;|&nbsp;<?php comments_popup_link('发表评论', '1 条评论', '% 条评论'); ?>&nbsp;<?php edit_post_link('编辑', ' | ', ''); ?></span>
+			<span class="post-single-info"><?php the_time('Y-m-d H:i'); ?>&nbsp;|&nbsp;<?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>&nbsp;|&nbsp;<?php the_views(); ?>&nbsp;次浏览&nbsp;|&nbsp;<?php comments_popup_link('评论', '1 条评论', '% 条评论'); ?></span>
 		</div>
 		
 		<div class="entry clearfix">
@@ -25,11 +25,8 @@
 		</div>
 		<?php endif;?>
 		<?php the_content(); ?>
-		<?php if(!is_crawler()) :?>
 		<div class="entry_ads"><?php show_ads(1);?></div>
-		<p style="padding:0px;">本文来自: <a href="<?php the_permalink() ?>" rel="bookmark" title="到 <?php the_title(); ?> 的永久链接"><?php the_title(); ?></a> - 索引标签：<?php the_tags('',', ',''); ?></p>
-		<?php endif; ?>
-		
+		<span>编辑：<?php the_author();?>； 索引标签：<?php the_tags('',', ',''); ?></span>
 		</div>
 	<div id="wumiiDisplayDiv"></div>
 	</div>
