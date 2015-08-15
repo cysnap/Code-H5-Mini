@@ -201,8 +201,8 @@ if (function_exists('register_sidebar')) {
 		'name' => '300x250-Ads',
 		'id'   => '300x250-Ads',
 		'description'   => 'This is a 300x250 Ads code area',
-		'before_widget' => '<li>',
-		'after_widget'  => '</li>',
+		'before_widget' => '',
+		'after_widget'  => '',
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>'
 	));

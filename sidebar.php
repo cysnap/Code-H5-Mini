@@ -2,7 +2,7 @@
 
 	<ul>
 		<?php if(is_home()) {?>
-		<?php dynamic_sidebar( '300x250-Ads' ); ?>	
+			<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
 		<?php } ?>
 		<?php if(!is_single()) {?>
 			<li><div class="mobile"></div></li>
@@ -109,16 +109,12 @@
 		<?php }?>
 
 		<?php if ( is_home() ) { ?>
-		<li>
-			<?php show_ads(3); ?>
-		</li>
+		<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
 		<li>
 			<h2 class="sidebar-title">最新评论</h2>
 			<div class="sidebar-comment"><?php most_recent_comments(); ?></div>
 		</li>
-		<li>
-			<?php show_ads(3); ?>
-		</li>
+		<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
 		<?php } ?>
 		
 		<?php if ( !is_single() && !is_tag() && !is_paged() && !is_crawler() ) { ?>
@@ -131,9 +127,7 @@
 		<?php } ?>
 		
 		<?php if (!is_home()) { ?>
-		<li>
-			<?php show_ads(3); ?>
-		</li>
+		<li><?php dynamic_sidebar( '300x250-Ads' ); ?>	</li>
 		<?php } ?>
 		
 	</ul>
