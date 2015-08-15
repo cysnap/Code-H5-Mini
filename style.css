@@ -7,7 +7,7 @@ Author: 潇洒哥
 Author URI:http://y0ng.com
 */
 *{padding:0; margin:0}
-body{font:14px Arial,sans-serif,"Heiti SC","微软雅黑";margin:0;padding:0;background:#E5ECF4 url(http://imgcdn.sinaapp.com/new-code-h/images/bg_top.png) repeat-x center top;}
+body{font:14px Arial,sans-serif,"Heiti SC","微软雅黑";margin:0;padding:0;background:#E5ECF4 url(images/bg_top.png) repeat-x center top;}
 img{border:none;}
 p{padding:5px; line-height:20px;}
 h1,h2,h3,h4{font-weight:normal;}
@@ -27,7 +27,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .nova-l-h{width:950px;margin:15px auto 20px;}
 /* Structure */
 .wrapper{margin:5px auto 10px;width:950px;text-align:left;overflow:hidden;display:block;}
-.header{padding:10px 0 0 0;margin: 0 auto;text-align: left;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/header_bg.jpg);}
+.header{padding:10px 0 0 0;margin: 0 auto;text-align: left;background: #F1F9FC url(images/header_bg.jpg);}
 .content{width:635px;float:left;margin:5px 0 0;}
 .sidebar{width:300px;float:right;}
 .footer{clear:both;border-top: 1px solid #eee;background: #2b3d4c;}
@@ -52,9 +52,9 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .flat_image ul li a span{padding:5px;width:172px;margin: -46px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:16px;text-shadow: 0 0 15px #000;transition:all 0.3s ease-in;}
 .flat_image ul li a span:hover{background-color:#FFF6BF;}
 /* Header Search */
-.search{height:26px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) repeat-x 0 -172px;}
+.search{height:26px;background:transparent url(images/sprite.png) repeat-x 0 -172px;}
 .search-input{padding:5px;border:0;background:transparent;color:#6080A5;width:260px;}
-.search-submit{width:24px;height:22px;margin-top:1px;border:0;cursor:pointer;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 5px -52px;}
+.search-submit{width:24px;height:22px;margin-top:1px;border:0;cursor:pointer;background:url(images/sprite.png) no-repeat 5px -52px;}
 .postform{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:left;}
 .postform_r{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:right;}
 
@@ -63,20 +63,20 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /* Header Widget */
 .header-widget{padding:10px 5px 0 0;text-align:right;font-size: 12px;}
-.live-translator{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 0;}
-.im-control{padding-left:20px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -36px;}
-.webslices{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -17px;}
-.headflash{overflow:hidden;height:250px;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x;}
+.live-translator{padding-left:18px;background:transparent url(images/sprite.png) no-repeat 0 0;}
+.im-control{padding-left:20px;background:transparent url(images/sprite.png) no-repeat 0 -36px;}
+.webslices{padding-left:18px;background:transparent url(images/sprite.png) no-repeat 0 -17px;}
+.headflash{overflow:hidden;height:250px;background: #F1F9FC url(images/right_BG.jpg) repeat-x;}
 .headflash_border{height:26px;overflow:hidden;background: #F1F9FC;}
-.headflash_border p {padding:0 0 0 20px;line-height:23px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 5px -149px;}
-.headrcmd{height:250px;width:370px;float:right;overflow:hidden;background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x;}
+.headflash_border p {padding:0 0 0 20px;line-height:23px;background:url(images/sprite.png) no-repeat 5px -149px;}
+.headrcmd{height:250px;width:370px;float:right;overflow:hidden;background: #F1F9FC url(images/right_BG.jpg) repeat-x;}
 .headsgst{border-bottom:1px dashed #DDD;list-style:none;padding:3px 5px;}
-.headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow:hidden;background:url(http://imgcdn.sinaapp.com/new-code-h/images/rcmd.gif) no-repeat 1px 2px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:18px;}
+.headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow:hidden;background:url(images/rcmd.gif) no-repeat 1px 2px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:18px;}
 .headsgst ul li a{float:left;width: 90%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
 .headsgst ul li span{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
 .headsgst dl dt{text-align:center;font-size:16px;font-weight:bold;background:#FFF6BF;color:#514721;border:1px solid #FFD324;padding:5px 0;}
 .headsgst dl dd{line-height:18px;text-indent:2em;word-break:break-all;padding:5px 0;}
-.headads {padding:10px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/635x80_ads_bg.jpg) no-repeat;}
+.headads {padding:10px;background:url(images/635x80_ads_bg.jpg) no-repeat;}
 
 /* flashNews */
 .flashNews {float:left;position:relative;width:260px;height:250px;overflow:hidden;border:1px solid #fff;}
@@ -94,12 +94,12 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .post img{max-width:550px;}
 .post-block {margin:10px 0 0;background-color:#fff;}
 .post-title{color:#6994B9;}
-.post-title-new{background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/new-icon.gif) no-repeat 0 0;}
+.post-title-new{background:transparent url(images/new-icon.gif) no-repeat 0 0;}
 .post-info,.post-date,.post-author,.post-cat,.post-edit{padding:5px;margin-right:5px;font-size:11px;line-height:20px;}
 .post-count{float:right;margin:-25px 0 0 0;color:#eee;font-size:26px;font-style:italic;padding:0 18px 0 0;font-weight:bold;}
-.post-comments{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -133px;}
-.post-add-comment{padding-left:18px;background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -110px;}
-.post-tags{float:left;padding:0 0 0 18px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -38px;}
+.post-comments{padding-left:18px;background:transparent url(images/sprite.png) no-repeat 0 -133px;}
+.post-add-comment{padding-left:18px;background:transparent url(images/sprite.png) no-repeat 0 -110px;}
+.post-tags{float:left;padding:0 0 0 18px;background:url(images/sprite.png) no-repeat 0 -38px;}
 .post-bottom {background:#F5F5F5;border-bottom: 1px dashed #ccc;list-style:none;margin:0 -5px;padding:10px 5px;height:16px;}
 .post-single{margin:0 0 15px 0;overflow:hidden;}
 .post-single-title{color:#6994B9;text-align:center;padding-bottom:5px;margin-bottom:5px;border-bottom:#DDD solid 1px;}
@@ -117,10 +117,10 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .entry ul ,.entry ol  {margin:8px 0 8px 55px;}
 .entry ul li ,.entry ol li {padding:3px 0;}
 .entry p{word-break:break-all;}
-.entry blockquote{color:#555;min-height:50px;margin: 5px 10px 5px 0px;padding: 0px 10px 0px 50px;border-left:4px solid #DDD;background:url(http://imgcdn.sinaapp.com/new-code-h/images/quote.gif) no-repeat 15px top;}
+.entry blockquote{color:#555;min-height:50px;margin: 5px 10px 5px 0px;padding: 0px 10px 0px 50px;border-left:4px solid #DDD;background:url(images/quote.gif) no-repeat 15px top;}
 .entry table{border:0;}
 .entry_ads {text-align:center;border-bottom:#DDD solid 1px;margin-bottom:10px;padding-bottom:10px;}
-.more-link{background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -94px;padding-left:18px;}
+.more-link{background:transparent url(images/sprite.png) no-repeat 0 -94px;padding-left:18px;}
 .list li{width:250px;float:left;}
 .navigation{padding-top:5px;}
 .post_navigation {background: #F1F9FC;padding:5px;margin:0 0 -10px;}
@@ -128,10 +128,10 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /* Post Meta */
 .meta_hover{background:#FBFBFB;border:1px solid #DDD;margin:10px 0;}
-.meta{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;margin:10px 0;}
+.meta{background: #F1F9FC url(images/right_BG.jpg) repeat-x 100% 0px;margin:10px 0;}
 
 /* Sidebar */
-.sidebar ul li ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 14px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -149px;border-bottom:1px dashed #E1F3F7;line-height: 22px;}
+.sidebar ul li ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 14px;background:url(images/sprite.png) no-repeat 0px -149px;border-bottom:1px dashed #E1F3F7;line-height: 22px;}
 .sidebar h2 {background: #F1F9FC;padding: 5px 15px;}
 .sidebar > ul > li{width:300px;margin:0;list-style:none;padding:5px 0;}
 .sidebar-rcmd-content{background: #E1F3F7;list-style:none;}
@@ -143,20 +143,20 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .sidebar-rcmd-content dl:nth-child(2n-1){background-color:#F7FFD4;}
 .thumbnail{float:right;margin:0 0 0 5px;border:1px solid #ccc;}
 .sidebar-rcmd-content small{color:#555;}
-.sidebar-rssfeed{padding-left:20px;line-height:19px;font-size:14px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -73px;}
+.sidebar-rssfeed{padding-left:20px;line-height:19px;font-size:14px;background:url(images/sprite.png) no-repeat 0 -73px;}
 .sidebar-rssfeed a,.sidebar-rssfeed a:hover{color:#CB5C11;}
 .sidebar-rssitems a{color:#666;}
 .sidebar-title{padding:2px 0 0;}
 .sidebar-title a{font-size:11px;}
 .sidebar-widget{margin:5px 0 5px 0;color:#666;}
 .sidebar-tags a{color:#666;}
-.sidebar-comment{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;}
+.sidebar-comment{background: #F1F9FC url(images/right_BG.jpg) repeat-x 100% 0px;}
 .sidebar-comment dl{border-bottom:1px dashed #CCC;padding:5px;}
 .sidebar-comment dd{font-size:14px;line-height:120%;word-break: break-all;}
 .sidebar-comment dt{text-align:right; line-height:110%; font-size:11px;color:gray; padding:5px 0 0 0;}
 .sidebar-comment dl dt span {font-size:11px;font-style:italic;}
 .sidebar-count{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
-.mobile {background: url(http://imgcdn.sinaapp.com/new-code-h/images/mobile.gif) no-repeat 0 0;border: 1px solid #E1F3F7;height:60px;}
+.mobile {background: url(images/mobile.gif) no-repeat 0 0;border: 1px solid #E1F3F7;height:60px;}
 .sbsgst{background: transparent;border:1px solid #E1F3F7;margin:5px 0;list-style:none;padding:5px;}
 
 /*list_archives*/
@@ -170,7 +170,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /* Comments */
 .comment-main{background-color: #F5F8FD;border:1px solid #C8D8F2;margin:5px 0;padding:5px;}
-.comments-title{background:transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -132px;padding-left:22px;}
+.comments-title{background:transparent url(images/sprite.png) no-repeat 0 -132px;padding-left:22px;}
 .comments-o a,.comments-o a:hover{color:#CB5C11;font-size:12px;}
 .comment,.trackback,.pingback{margin:5px 0;padding:5px 10px;}
 .comment-list{background-color:#FDFDFD;margin:0 -5px;border-bottom:1px dotted #CCC;}
@@ -195,7 +195,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .footer-credits span{display: block;padding:2px;font-size:11px;color:#6994B9}
 .footer-credits span a{color:#F60;}
 /* Misc */
-.notice{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;list-style:none;padding:5px;}
+.notice{background: #F1F9FC url(images/right_BG.jpg) repeat-x 100% 0px;list-style:none;padding:5px;}
 .video{background:#E6EFC2;color:#264409;border:1px solid #C6D880;margin:5px 0;padding:4px 7px;}
 .video a{color:#264409;}
 .fuss{font-size:14px;background:#FFF6BF;color:#514721;border:1px solid #FFD324;margin:0 0 10px;}
@@ -205,12 +205,12 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /*For Topic page*/
 .topic{padding:5px;border-bottom:1px dashed #ccc;}
-.topic ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 16px;background:url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0px -149px;}
+.topic ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 16px;background:url(images/sprite.png) no-repeat 0px -149px;}
 .topic a {color: #222;}
 .topic small{color:#555;}
 
 /*For Tag page*/
-.tag_node{background: #F1F9FC url(http://imgcdn.sinaapp.com/new-code-h/images/right_BG.jpg) repeat-x 100% 0px;border:1px solid #E1F3F7;list-style:none;padding:5px 8px;margin:5px 0;}
+.tag_node{background: #F1F9FC url(images/right_BG.jpg) repeat-x 100% 0px;border:1px solid #E1F3F7;list-style:none;padding:5px 8px;margin:5px 0;}
 
 /*page_navi*/
 .page_navi{padding:3px 0px 4px;text-align:center;background:#F1F9FC;}
