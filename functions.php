@@ -70,7 +70,7 @@ function pagenavi(){
 	$wp_query->query_vars['paged'] > 1 ? $current = $wp_query->query_vars['paged'] : $current = 1;
 	$total = $wp_query->max_num_pages;
 	$links = '<div class="page_navi">';
-	$links .= '<span class="page-numbers pages">第 '. $current .' 页，共 '. $total .' 页</span>';
+	//$links .= '<span class="page-numbers pages">第 '. $current .' 页，共 '. $total .' 页</span>';
 	if ( $total == 1 ) return;
 	if ( $current > 1 )	$links .= pagenavi_link( $current - 1, '&laquo; 上一页');
 	if ( $current > 5 ) $links .= pagenavi_link( 1, '1').'<span class="page-numbers dots">...</span>';
