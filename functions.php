@@ -177,13 +177,12 @@ function register_my_menus() {
 add_action( 'init', 'register_my_menus' );
 
 //remove header menu's classes and ids
-//add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1);
+add_filter('nav_menu_css_class', 'special_nav_class', 100, 1);
 add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1);
 add_filter('page_css_class', 'my_css_attributes_filter', 100, 1);
 function my_css_attributes_filter($var) {
   return is_array($var) ? array() : '';
 }
-add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 function special_nav_class($classes, $item){
      if( is_array('current-menu-item', $classes) ){
 	             $classes[] = 'active ';
