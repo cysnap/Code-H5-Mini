@@ -36,9 +36,6 @@
 					<?php wp_reset_query(); ?>
 				</ul>
 			</div>
-			<div class="headsgst headsgstads">
-				<?php show_ads(5); ?>
-			</div>
 	</div>
 	<div class="clearfix"></div>
 </div>

@@ -114,7 +114,6 @@
 			<h2 class="sidebar-title">最新评论</h2>
 			<div class="sidebar-comment"><?php most_recent_comments(); ?></div>
 		</li>
-		<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
 		<?php } ?>
 		
 		<?php if ( !is_single() && !is_tag() && !is_paged() && !is_crawler() ) { ?>
