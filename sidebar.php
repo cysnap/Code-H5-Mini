@@ -4,8 +4,6 @@
 		<?php if(is_home()) {?>
 			<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
 		<?php } ?>
-
-		<li><?php dynamic_sidebar('SidebarBanner'); ?></li>
 		
 		<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
 		<li>
@@ -16,7 +14,9 @@
 				</form>
 			</div>
 		</li>
-		
+
+		<li><?php dynamic_sidebar('SidebarBanner'); ?></li>
+
 		<?php if (is_category()) { ?>
 		<li>
 			<h2 class="sidebar-title">本月热门</h2>
