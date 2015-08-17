@@ -61,10 +61,8 @@ img.aligncenter{display:blcok;margin:0 auto;}
 .postform_r{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:right;}
 
 /* Header Widget */
-.headflash{overflow:hidden;height:250px;background: #F1F9FC url(images/right_BG.jpg) repeat-x;}
-.headflash_border{height:26px;overflow:hidden;background: #F1F9FC;}
-.headflash_border p {padding:0 0 0 20px;line-height:23px;background:url(images/sprite.png) no-repeat 5px -149px;}
-.headrcmd{height:250px;width:370px;float:right;overflow:hidden;background: #F1F9FC url(images/right_BG.jpg) repeat-x;}
+.headflash{overflow:hidden;height:250px;background: #FFF;}
+.headrcmd{height:250px;width:370px;float:right;overflow:hidden;}
 .headsgst{border-bottom:1px dashed #DDD;list-style:none;padding:3px 5px;}
 .headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow:hidden;background:url(images/rcmd.gif) no-repeat 0px 4px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:24px;}
 .headsgst ul li a{float:left;width: 90%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
@@ -121,8 +119,8 @@ img.aligncenter{display:blcok;margin:0 auto;}
 .post_navigation a {color:#AAA;}
 
 /* Post Meta */
-.meta_hover{background:#FBFBFB;border:1px solid #DDD;margin:10px 0;}
-.meta{background: #F1F9FC url(images/right_BG.jpg) repeat-x 100% 0px;margin:10px 0;}
+.meta:hover{background:#FBFBFB;border:1px solid #DDD;margin:10px 0;}
+.meta{background-color:#FFF;background-image:linear-gradient(#FFF,#F1F9FC);margin:10px 0;}
 
 /* Sidebar */
 .sidebar ul li ul li{white-space:nowrap;text-overflow:ellipsis;overflow: hidden;padding:2px 0 2px 14px;background:url(images/sprite.png) no-repeat 0px -149px;border-bottom:1px dashed #E1F3F7;line-height: 22px;}
