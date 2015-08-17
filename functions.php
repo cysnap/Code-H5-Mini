@@ -188,13 +188,13 @@ function my_css_attributes_filter($var) {
 if (function_exists('register_sidebar')) {
 
 	register_sidebar(array(
-		'name' => 'Widgetized Area',
-		'id'   => 'widgetized-area',
-		'description'   => 'This is a widgetized area.',
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h4>',
-		'after_title'   => '</h4>'
+		'name' => 'SidebarBanner',
+		'id'   => 'SidebarBanner',
+		'description'   => 'This is a sidebarbanner manage',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => ''
 	));
 
 	register_sidebar(array(
