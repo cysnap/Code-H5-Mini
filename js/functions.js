@@ -447,7 +447,7 @@ function appendReply(insertStr, commentBox) {
 
 // fixed menu function
 // Create a clone of the menu, right next to original.
-$('.nav').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
+$('.nav').addClass('original').clone().insertAfter('.nav').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
 
 scrollIntervalID = setInterval(stickIt, 10);
 
