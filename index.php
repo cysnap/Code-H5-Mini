@@ -42,12 +42,7 @@
 
 <?php endif; ?>
 
-
 <div class="post-block">
-	<?php if (is_home()):?>
-		<div id="top_marquee" class="headflash_border"><?php show_ads(9); ?></div>
-		<script type="text/javascript">marquee(22,100,5000,'top_marquee');</script>
-	<?php endif;?>
 	<?php $rcmdcounter = 0; ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php $rcmdcounter++; ?>
