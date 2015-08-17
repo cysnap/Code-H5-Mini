@@ -10,7 +10,7 @@ Template Name: All Topics
 	$args = array ('orderby' => 'name');
 	$categories = get_categories( $args );
 	foreach ( $categories as $category ) {
-		echo '<a href="' . get_category_link( $category->term_id ) . '"><img src="http://imgcdn.sinaapp.com/cat-img/' . $category->category_nicename . '.gif" title="' . $category->name . '"></a>';
+		echo '<a href="' . get_category_link( $category->term_id ) . '" title="' . $category->name  . '"><img src="http://imgcdn.sinaapp.com/cat-img/' . $category->category_nicename . '.gif" alt="' . $category->name . '"></a>';
 	}
 ?>
 	</div>
