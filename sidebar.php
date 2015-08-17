@@ -109,7 +109,6 @@
 		<?php }?>
 
 		<?php if ( is_home() ) { ?>
-		<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
 		<li>
 			<h2 class="sidebar-title">最新评论</h2>
 			<div class="sidebar-comment"><?php most_recent_comments(); ?></div>
@@ -125,9 +124,7 @@
 		</li>
 		<?php } ?>
 		
-		<?php if (!is_home()) { ?>
 		<li><?php dynamic_sidebar( '300x250-Ads' ); ?>	</li>
-		<?php } ?>
 		
 	</ul>
 </div>
