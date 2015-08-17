@@ -5,6 +5,18 @@ Template Name: All Topics
 ?>
 <?php get_header(); ?>
 	<div class="fuss nova">所有新闻主题</div>
+
+	<div class="post meta">
+	<?php
+	$args = array ('orderby' => 'count');
+	$categories = get_categories( $args );
+	foreach ( $categories as $category ) {
+		echo '<a href="' . get_category_link( $category->term_id ) . '"><img src="http://imgcdn.sinaapp.com/cat-img/' . $category->category_nicename . '.gif" title="' . $category->name . '"></a>';
+	}
+	?>
+		
+	</div>
+
 	<div class="post meta">
 		<?php 
 		$categories = get_categories();
