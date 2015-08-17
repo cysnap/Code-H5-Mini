@@ -40,7 +40,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .nav ul li a{line-height:36px;text-shadow:0 1px 1px #fff;padding:10px 15px;transition:all 0.3s ease-in;}
 .nav ul li a:hover{background:#FFF6BF;}
 .current-menu-item a{border-bottom: 2px solid #FFD324;}
-.nav-icon img{background-color: #fff; width:45px;height:45px;padding:2px;margin:7px 0 0 25px;border-radius: 30px;border: 1px solid #ccc; transition: transform 0.8s ease-out; -webkit-transition: -webkit-transform 0.8s ease-out; -moz-transition: -moz-transform 0.8s ease-out;}
+.nav-icon img{background-color: #fff; width:45px;height:45px;padding:2px;margin:7px 0 0 25px;border-radius: 30px;border: 1px solid #ccc; transition: transform 0.8s ease-out;}
 .nav-icon img:hover{border: 1px solid #036;transform: rotateZ(360deg);}
 
 #random_quotes{color:#6994B9;margin:5px 20px 5px 0;display:block;}
@@ -65,7 +65,7 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .headflash_border p {padding:0 0 0 20px;line-height:23px;background:url(images/sprite.png) no-repeat 5px -149px;}
 .headrcmd{height:250px;width:370px;float:right;overflow:hidden;background: #F1F9FC url(images/right_BG.jpg) repeat-x;}
 .headsgst{border-bottom:1px dashed #DDD;list-style:none;padding:3px 5px;}
-.headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow:hidden;background:url(images/rcmd.gif) no-repeat 1px 2px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:24px;}
+.headsgst ul li {text-overflow: ellipsis;white-space: nowrap;overflow:hidden;background:url(images/rcmd.gif) no-repeat 0px 4px;padding:0 0 0 32px;list-style:none;list-style-position: inside;line-height:24px;}
 .headsgst ul li a{float:left;width: 90%;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
 .headsgst ul li span{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
 .headsgst dl dt{text-align:center;font-size:16px;font-weight:bold;background:#FFF6BF;color:#514721;border:1px solid #FFD324;padding:5px 0;}

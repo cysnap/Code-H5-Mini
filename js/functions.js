@@ -414,7 +414,7 @@ function marquee(lh,speed,delay,id) {
 	setTimeout(start,delay);
 }
 
-//Commnet function
+//Comment function
 
 function reply(authorId, commentId, commentBox) {
 	var author = document.getElementById(authorId).innerHTML;
