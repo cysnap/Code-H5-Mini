@@ -5,27 +5,16 @@ Template Name: All Topics
 ?>
 <?php get_header(); ?>
 	<div class="fuss nova">所有新闻主题</div>
-
 	<div class="post meta">
 	<?php
-	$args = array ('orderby' => 'count');
+	$args = array ('orderby' => 'name');
 	$categories = get_categories( $args );
 	foreach ( $categories as $category ) {
 		echo '<a href="' . get_category_link( $category->term_id ) . '"><img src="http://imgcdn.sinaapp.com/cat-img/' . $category->category_nicename . '.gif" title="' . $category->name . '"></a>';
 	}
-	?>
-		
+?>
 	</div>
 
-	<div class="post meta">
-		<?php 
-		$categories = get_categories();
-		foreach ($categories as $cat) : $catid = $cat->cat_ID; query_posts("showposts=1&cat=$catid"); ?>
-		<?php while (have_posts()) : the_post(); endwhile; ?>
-		<a href="<?php bloginfo('url'); ?>/archives/category/<?php foreach((get_the_category()) as $cat){echo $cat->category_nicename;}?>" title="<?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>"><img style="max-width:60px;padding:6px 18px;" src="http://imgcdn.sinaapp.com/cat-img/<?php foreach((get_the_category()) as $cat){echo $cat->category_nicename;}?>.gif"> </a>
-		<?php endforeach; ?>
-		<?php wp_reset_query(); ?>
-	</div>
 	<div class="fuss nova">所有新闻标签</div>
 	<div class="post meta"><?php wp_tag_cloud('smallest=11&largest=18&format=flat&orderby=count&order=DESC'); ?></div>
 </div>
