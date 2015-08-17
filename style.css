@@ -117,9 +117,6 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .navigation{padding-top:5px;}
 .post_navigation {background: #F1F9FC;padding:5px;margin:0 0 -10px;}
 .post_navigation a {color:#AAA;}
-
-/* Post Meta */
-.meta:hover{background:#FBFBFB;border:1px solid #DDD;margin:10px 0;}
 .meta{background-color:#FFF;background-image:linear-gradient(#FFF,#F1F9FC);margin:10px 0;}
 
 /* Sidebar */
