@@ -115,15 +115,6 @@
 		</li>
 		<?php } ?>
 		
-		<?php if ( !is_single() && !is_tag() && !is_paged() && !is_crawler() ) { ?>
-		<li>
-			<h2 class="sidebar-title">本月热评文章</h2>
-			<div class="notice">
-				<ul class="list_page"><?php most_commented_posts(); ?></ul>
-			</div>
-		</li>
-		<?php } ?>
-		
 		<li><?php dynamic_sidebar( '300x250-Ads' ); ?>	</li>
 		
 	</ul>
