@@ -51,7 +51,7 @@
 			<?php if(is_sticky()) : ?>
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a><?php _e('<span style="color:red;">[置顶] </span>'); ?></h2>
 			<?php else: ?>
-			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a><?php video_tag(); ?><?php $diff = strtotime(date('Y-m-d H:i:s'))-strtotime(get_the_time('Y-m-d H:i:s')); if ($diff <= -25100){echo '<img src="' . get_stylesheet_directory_uri() . '"/mages/new-icon.gif" />';} ?></h2>
+			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a><?php video_tag(); ?><?php $diff = strtotime(date('Y-m-d H:i:s'))-strtotime(get_the_time('Y-m-d H:i:s')); if ($diff <= -25100){echo '<img src="' . get_stylesheet_directory_uri() . '"/images/new-icon.gif" />';} ?></h2>
 			<?php endif; ?>
 			<span class="post-count"><?php echo($rcmdcounter); ?>#</span>
 		</div>
