@@ -228,7 +228,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 
 /*Media Queries*/
 @media screen and (max-width: 800px) {
-	.nav-icon,.nav ul li:nth-child(n+3),.flat_image,.sidebar,.flashNews,.post-bottom,.headflash_border,.post_navigation,.nova-l-h>.nova-r,.fuss{display:none;}
+	.nav-icon,nav a:nth-child(n+3),.flat_image,.sidebar,.flashNews,.post-bottom,.headflash_border,.post_navigation,.nova-l-h>.nova-r,.fuss{display:none;}
 	main,.headrcmd,footer{width:100%}
 	.nav ul {width:100%;padding:0;}
 	.headflash,.headrcmd{height:auto;}
