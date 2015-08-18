@@ -37,7 +37,7 @@
 	</div>
 </header>
 
-<main role="main" class="wrapper">
+<main role="main">
 <?php if(is_home() || is_single()) : ?>
 	<div class="flat_image">
 		<ul>
