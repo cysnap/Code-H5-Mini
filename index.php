@@ -3,20 +3,18 @@
 <?php if ( is_home()) : ?>
 <div class="headflash">
 	<script>$(function() {$("#rslides").responsiveSlides({auto: true,pager: true,speed: 500,maxwidth: 260})});</script>
-	<div class="flashNews">
-		<ul id="rslides">
+	<div class="flashNews" id="rslides">
 			<?php wp_reset_query(); ?>
 			<?php query_posts($query_string . 'meta_key=flash_image&posts_per_page=4'); ?>
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<li>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+			<figure>
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank">
 					<img src="<?php $key="flash_image"; echo get_post_meta($post->ID, $key, true); ?>"/>
-					<span><?php the_title(); ?></span>
+					<figcaption><?php the_title(); ?></figcaption>
 				</a>
-			</li>
+			</figure>
 			<?php endwhile; endif; ?>
 			<?php wp_reset_query(); ?>
-		</ul>
 	</div>
 
 	<div class="headrcmd">

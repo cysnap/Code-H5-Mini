@@ -72,14 +72,13 @@ a:hover{color:#79A5D6;text-decoration:none;}
 
 /* flashNews */
 .flashNews {float:left;position:relative;width:260px;height:250px;overflow:hidden;border:1px solid #fff;}
-.flashNews ul {list-style-position: inside;}
-.flashNews ul li {float:left;text-align:center;list-style: none;}
-.flashNews ul li a {display:block;color:#6994B9;background:#EEE;}
-.flashNews ul li a span{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:34px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
+.flashNews figure{float:left;text-align:center;}
+.flashNews figure a {display:block;color:#6994B9;background:#EEE;}
+.flashNews figure a figcaption{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:34px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
 .flashNews img {max-width:260px;height:auto;}
-.flashNews ul.rslides_tabs {position:absolute;z-index:10;bottom:50px;right:0;margin:0 5px 5px 0;}
-.flashNews ul.rslides_tabs li{padding:3px;}
-.flashNews ul.rslides_tabs li a{text-indent: -9999px;overflow: hidden;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;background: #ccc;background: rgba(0,0,0, .2);display: inline-block;_display: block;*display: block;-webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);-moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);width: 9px;height: 9px;}
+.flashNews .rslides_tabs {position:absolute;z-index:10;bottom:50px;right:0;margin:0 5px 5px 0;}
+.flashNews .rslides_tabs figure{padding:3px;}
+.flashNews .rslides_tabs figure a{text-indent: -9999px;overflow: hidden;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;background: #ccc;background: rgba(0,0,0, .2);display: inline-block;_display: block;*display: block;-webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);-moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);width: 9px;height: 9px;}
 .flashNews ul.rslides_tabs li.rslides_here a{background: rgba(0,0,0, .8);background: #222;}
 /* Content */
 .post{padding:15px 5px 0;overflow:hidden;}
