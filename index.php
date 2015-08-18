@@ -2,7 +2,7 @@
 
 <?php if ( is_home()) : ?>
 <div class="headflash">
-	<script>$(function() {$("#rslides").responsiveSlides({auto: true,pager: true,speed: 500,maxwidth: 260})});</script>
+	<script>$(function() {$("#rslides").responsiveSlides({auto: true,pager: false,speed: 500,maxwidth: 260})});</script>
 	<div class="flashNews" id="rslides">
 			<?php wp_reset_query(); ?>
 			<?php query_posts($query_string . 'meta_key=flash_image&posts_per_page=4'); ?>
