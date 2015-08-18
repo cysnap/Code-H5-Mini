@@ -32,8 +32,9 @@
 			</div>
 			<div class="clearfix"></div>
 	</div>
-	<nav class="nav"><?php wp_nav_menu( array( 'theme_location' => 'header-menu','container' => false,'items_wrap' => '<ul>%3$s</ul>', ) ); ?></nav>
-	<?php $h5menu = wp_nav_menu(array('theme_location'=>'header-menu','container'=>false,'items_wrap'=>'<nav>%3$s</nav>','echo'=>false,)); $find=array('><a','li'); $replace=array('','a'); echo str_replace($find,$replace,$h5menu); ?>
+	<div class="nav">
+		<?php $h5menu = wp_nav_menu(array('theme_location'=>'header-menu','container'=>false,'items_wrap'=>'<nav>%3$s</nav>','echo'=>false,)); $find=array('><a','li'); $replace=array('','a'); echo str_replace($find,$replace,$h5menu); ?>
+	</div>
 </header>
 
 <main role="main" class="wrapper">
