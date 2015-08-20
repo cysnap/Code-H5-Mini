@@ -8,7 +8,7 @@
 <body id="main">
 	<div class="kudos">
 		<div class="kudos-title">
-			<a href="<?php echo get_settings('home'); ?>/"><h1>测试版资讯::IT业界资讯及时推送！</h1></a>
+			<a href="<?php echo get_settings('home'); ?>/"><h1>测试版本资讯::IT业界资讯及时推送！</h1></a>
 		</div>
 		<div class="kudos-widget">
 			<div class="kudos-title"><p>404！这个页面被站长的虚拟喵给吃了！再也找不回来了！</p></div>
