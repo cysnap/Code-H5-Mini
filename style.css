@@ -235,7 +235,10 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 	.nova-l-h,.content,.footer-credits,.headsgst{width:auto;margin:0 auto;float:none;}
 	.nova-l-h{margin:15px auto 0;text-align:center;}
 	.nova-l{float:none;margin:0 auto;}
+	.nav nav a:nth-child(2){background:none;}
 	.post{border-bottom:1px dashed #ccc;}
 	.post:last-child{border-bottom:none;}
-	.entry p img{width:95%;height:95%;}
+	.entry p img{width:95%;height:95%;}i
+	.search{width:190px;}
+	.search-input{width:150px;}
 }
