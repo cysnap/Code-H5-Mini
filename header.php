@@ -33,7 +33,16 @@
 			<div class="clearfix"></div>
 	</div>
 	<div class="nav">
-		<?php $h5menu = wp_nav_menu(array('theme_location'=>'header-menu','container'=>false,'items_wrap'=>'<nav>%3$s</nav>','echo'=>false,)); $find=array('><a','li'); $replace=array('','a'); echo str_replace($find,$replace,$h5menu); ?>
+		<nav>
+			<?php $h5menu = wp_nav_menu(array('theme_location'=>'header-menu','container'=>false,'items_wrap'=>'%3$s','echo'=>false,)); $find=array('><a','li'); $replace=array('','a'); echo str_replace($find,$replace,$h5menu); ?>
+			<div class="search">
+			<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
+				<form method="get" class="searchform" name="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+					<input type="text" class="search-input nova-l" size="24" value="站内新闻搜索" name="s" onfocus="if (this.value == '站内新闻搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '站内新闻搜索';}" />
+					<input type="submit" class="search-submit nova-r" value="" />
+				</form>
+			</div>
+		</nav>
 	</div>
 </header>
 
