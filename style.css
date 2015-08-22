@@ -239,6 +239,6 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 	.post{border-bottom:1px dashed #ccc;}
 	.post:last-child{border-bottom:none;}
 	.entry p img{width:95%;height:95%;}
-	.search{width:190px;}
-	.search-input{width:150px;}
+	.search{width:150px;}
+	.search-input{width:110px;}
 }
