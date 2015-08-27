@@ -54,9 +54,8 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .flat_image ul li a span{padding:5px;width:172px;margin: -46px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:16px;text-shadow: 0 0 15px #000;transition:all 0.3s ease-in;}
 .flat_image ul li a span:hover{background-color:#FFF6BF;}
 /* Header Search */
-.search{height:26px;width:300px;float:right;margin:5px 0;background:transparent url(images/sprite.png) repeat-x 0 -172px;}
-.search-input{padding:5px;border:0;background:transparent;color:#6080A5;width:260px;}
-.search-submit{width:24px;height:22px;margin-top:1px;border:0;cursor:pointer;background:url(images/sprite.png) no-repeat 5px -52px;}
+.search{float:right;margin:6px 0;}
+.search-input{padding:5px;border-radius:15px;border:0;color:#6080A5;width:260px;}
 .postform{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:left;}
 .postform_r{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:right;}
 

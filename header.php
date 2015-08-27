@@ -39,7 +39,6 @@
 			<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
 				<form method="get" class="searchform" name="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 					<input type="text" class="search-input nova-l" size="24" value="站内新闻搜索" name="s" onfocus="if (this.value == '站内新闻搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '站内新闻搜索';}" />
-					<input type="submit" class="search-submit nova-r" value="" />
 				</form>
 			</div>
 		</nav>
