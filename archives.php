@@ -21,21 +21,7 @@ Template Name: All Topics
 
 <div class="sidebar">
 	<ul>
-	
-		<li><div class="mobile"></div></li>
-		
-		<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
-		<li class="sidebar-li">
-		<div class="search">
-			<form method="get" class="searchform" name="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-				<input type="text" class="search-input nova-l" size="24" value="站内新闻搜索" name="s" onfocus="if (this.value == '站内新闻搜索') {this.value = '';}" onblur="if (this.value == '') {this.value = '站内新闻搜索';}" />
-				<input type="submit" class="search-submit nova-r" value="" />
-			</form>
-		</div>
-		</li>
-		
 		<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
-
 	</ul>
 </div>
 <?php get_footer(); ?>
