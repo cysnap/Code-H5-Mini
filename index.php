@@ -57,11 +57,11 @@
 		<div class="entry clearfix">
 			<div class="nova-r">
 				<?php 
-					$key = "flat_image";
-					$flat_image_meta = get_post_meta($post->ID,$key,TRUE);
-					if ($flat_image_meta != ""):
+					$key = "cover_s";
+					$cover_s_meta = get_post_meta($post->ID,$key,TRUE);
+					if ($cover_s_meta != ""):
 				?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $flat_image_meta;?>"></a>
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $cover_s_meta;?>"></a>
 				<?php else: ?>
 				<?php
 				$the_cat = get_the_category();
