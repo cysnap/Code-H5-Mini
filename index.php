@@ -56,6 +56,13 @@
 		
 		<div class="entry clearfix">
 			<div class="nova-r">
+				<?php 
+					$key = "flat_image";
+					$flat_image_meta = get_post_meta($post->ID,$key,TRUE);
+					if ($flat_image_meta != ""):
+				?>
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $flat_image_meta;?>"></a>
+				<?php else: ?>
 				<?php
 				$the_cat = get_the_category();
 				$category_slug = $the_cat[0]->slug;
@@ -64,6 +71,7 @@
 				$category_link = get_category_link( $the_cat[0]->cat_ID );
 				?>
 				<a href="<?php echo $category_link; ?>" title="<?php echo $category_name; ?>"><img src="http://imgcdn.sinaapp.com/cat-img/<?php echo $category_slug; ?>.gif" /></a>
+				<?php endif; ?>
 			</div>
 		<?php the_content('',TRUE,'');?>
 		
