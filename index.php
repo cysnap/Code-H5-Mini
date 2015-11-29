@@ -41,6 +41,7 @@
 <?php endif; ?>
 
 <div class="post-block">
+	<div class="entry_ads"><?php dynamic_sidebar( '468x60-Ads' ); ?></div>
 	<?php $rcmdcounter = 0; ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php $rcmdcounter++; ?>
