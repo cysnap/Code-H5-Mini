@@ -79,6 +79,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .post{padding:15px 5px 0;overflow:hidden;}
 .post img{max-width:550px;}
 .post-block {margin:10px 0 0;background-color:#fff;}
+.pb_ads{text-align:center;border-bottom:#DDD solid 1px;}
 .post-title{color:#6994B9;}
 .post-title-new{background:transparent url(images/new-icon.gif) no-repeat 0 0;}
 .post-info,.post-date,.post-author,.post-cat,.post-edit{padding:5px;margin-right:5px;font-size:11px;line-height:20px;}
