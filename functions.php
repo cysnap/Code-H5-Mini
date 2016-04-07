@@ -191,27 +191,6 @@ function img_url(){
 
 // add widget support
 if (function_exists('register_sidebar')) {
-
-	register_sidebar(array(
-		'name' => 'SidebarBanner',
-		'id'   => 'SidebarBanner',
-		'description'   => 'This is a sidebarbanner manage',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => ''
-	));
-
-	register_sidebar(array(
-		'name' => '300x250-Ads',
-		'id'   => '300x250-Ads',
-		'description'   => 'This is a 300x250 Ads code area',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h2>',
-		'after_title'   => '</h2>'
-	));
-
 	register_sidebar(array(
 		'name' => '468x60-Ads',
 		'id'   => '468x60-Ads',
@@ -220,6 +199,7 @@ if (function_exists('register_sidebar')) {
 		'after_widget'  => '',
 		'before_title'  => '',
 		'after_title'   => ''
-	));}
+	));
+}
 
 ?>
