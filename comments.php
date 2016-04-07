@@ -1,8 +1,8 @@
 <?php
-if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-die ('.');
-if ( post_password_required() ) { ?>
-	<div class="fuss nova">此文密码保护，请输入密码！</div>
+	if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
+	die ('.');
+	if ( post_password_required() ) { ?>
+	<div class="fuss nova">此文保护状态暂时无法查看！</div>
 <?php return; } ?>
 
 <div class="comment-main">
