@@ -184,6 +184,11 @@ function my_css_attributes_filter($var) {
 	return is_array($var) ? array_intersect($var, array('current-menu-item')) : '';
 }
 
+//image server location
+function img_url(){
+	echo 'https://img.maxbeta.com'; 
+}
+
 // add widget support
 if (function_exists('register_sidebar')) {
 
