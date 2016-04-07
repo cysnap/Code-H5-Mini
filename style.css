@@ -36,8 +36,7 @@ footer{clear:both;border-top: 1px solid #eee;background: #2b3d4c;}
 .nav{margin:0 auto;background: rgba(121, 165, 214, 0.31);}
 .fixed{position:fixed;top:0;margin:0 auto;width:100%;background:#F1F9FC;border-bottom:1px solid #eee;z-index:10000;box-shadow:0 0 10px 0 #000;}
 .nav nav{list-style: none;padding:0 15px;margin:0 auto;width: 950px;}
-.nav nav a{margin:0;display: inline;background:linear-gradient(#c3d0d0, #2d2c2e, #b2bdbd) no-repeat right / 1px 15px;line-height:36px;text-shadow:0 1px 1px #fff;padding:10px 15px;transition:all 0.3s ease-in;}
-.nav nav a:nth-child(8){background:none;}
+.nav nav a{margin:0;display: inline;line-height:36px;text-shadow:0 1px 1px #fff;padding:10px 15px;transition:all 0.3s ease-in;}
 .nav nav a:hover{background:#FFF6BF;}
 a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .nav-icon img{background-color: #fff; width:45px;height:45px;padding:2px;margin:7px 0 0 25px;border-radius: 30px;border: 1px solid #ccc; transition: transform 0.8s ease-out;}
