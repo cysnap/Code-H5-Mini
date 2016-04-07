@@ -21,7 +21,7 @@
 			$category_description = $the_cat[0]->category_description;
 			$category_link = get_category_link( $the_cat[0]->cat_ID );
 			?>
-			<a href="<?php echo $category_link; ?>" title="<?php echo $category_name; ?>"><img src="http://img.maxbeta.com/cat-img/<?php echo $category_slug; ?>.gif" /></a>
+			<a href="<?php echo $category_link; ?>" title="<?php echo $category_name; ?>"><img src="<?php img_url();?>/cat-img/<?php echo $category_slug; ?>.gif" /></a>
 		</div>
 		<?php endif;?>
 		<?php the_content(); ?>

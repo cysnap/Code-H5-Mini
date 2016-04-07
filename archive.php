@@ -45,7 +45,7 @@
 	
 	<div class="entry clearfix">
 		<div class="cat-img">
-			<a href="<?php bloginfo('url'); ?>/archives/category/<?php foreach((get_the_category()) as $cat){echo $cat->category_nicename;}?>" title="<?php single_cat_title() ?>"><img src="http://imgcdn.sinaapp.com/cat-img/<?php foreach((get_the_category()) as $cat){echo $cat->category_nicename;}?>.gif" alt="<?php single_cat_title() ?>" ></a>
+			<a href="<?php bloginfo('url'); ?>/archives/category/<?php foreach((get_the_category()) as $cat){echo $cat->category_nicename;}?>" title="<?php single_cat_title() ?>"><img src="<?php img_url(); ?>/cat-img/<?php foreach((get_the_category()) as $cat){echo $cat->category_nicename;}?>.gif" alt="<?php single_cat_title() ?>" ></a>
 		</div>
 	<?php the_content('',TRUE,''); ?>
 	</div>
