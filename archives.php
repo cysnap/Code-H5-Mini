@@ -21,7 +21,7 @@ Template Name: All Topics
 
 <div class="sidebar">
 	<ul>
-		<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
+		<li><?php dynamic_sidebar( 'sb_banner' ); ?></li>
 	</ul>
 </div>
 <?php get_footer(); ?>
