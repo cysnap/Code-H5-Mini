@@ -5,7 +5,7 @@ Template Name: All Topics
 ?>
 <?php get_header(); ?>
 	<div class="fuss nova">所有新闻主题</div>
-	<div class="post meta nav-icon">
+	<div class="post meta archives-icon">
 	<?php
 	$args = array ('orderby' => 'name');
 	$categories = get_categories( $args );
