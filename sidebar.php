@@ -1,10 +1,6 @@
 <div class="sidebar">
 
 	<ul>
-		<?php if(is_home()) {?>
-			<li><?php dynamic_sidebar( '300x250-Ads' ); ?></li>
-		<?php } ?>
-		
 		<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
 
 		<li><?php dynamic_sidebar('SidebarBanner'); ?></li>
@@ -102,8 +98,6 @@
 			<div class="sidebar-comment"><?php most_recent_comments(); ?></div>
 		</li>
 		<?php } ?>
-		
-		<li><?php dynamic_sidebar( '300x250-Ads' ); ?>	</li>
 		
 	</ul>
 </div>

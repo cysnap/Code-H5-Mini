@@ -25,7 +25,6 @@
 		</div>
 		<?php endif;?>
 		<?php the_content(); ?>
-		<div class="entry_ads"><?php dynamic_sidebar( '468x60-Ads' ); ?></div>
 		<span>编辑：<?php the_author();?>； 索引标签：<?php the_tags('',', ',''); ?></span>
 		</div>
 	<div id="wumiiDisplayDiv"></div>

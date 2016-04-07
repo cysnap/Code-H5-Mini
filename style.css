@@ -106,7 +106,6 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .entry p{word-break:break-all;}
 .entry blockquote{color:#555;min-height:50px;margin: 5px 10px 5px 0px;padding: 0px 10px 0px 50px;border-left:4px solid #DDD;background:url(images/quote.gif) no-repeat 15px top;}
 .entry table{border:0;}
-.entry_ads {text-align:center;border-bottom:#DDD solid 1px;margin-bottom:10px;padding-bottom:10px;}
 .more-link{background:transparent url(images/sprite.png) no-repeat 0 -94px;padding-left:18px;}
 .list li{width:250px;float:left;}
 .navigation{padding-top:5px;}
