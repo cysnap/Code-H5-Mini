@@ -3,7 +3,7 @@
 	<ul>
 		<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
 
-		<li><?php dynamic_sidebar('SidebarBanner'); ?></li>
+		<li><?php dynamic_sidebar('sb_banner'); ?></li>
 
 		<?php if (is_category()) { ?>
 		<li>
