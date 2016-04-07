@@ -1,16 +1,16 @@
-<?php 
+<?php
 
 remove_action( 'wp_head', 'feed_links_extra', 3 );
-remove_action( 'wp_head', 'rsd_link' ); 
+remove_action( 'wp_head', 'rsd_link' );
 remove_action( 'wp_head', 'wlwmanifest_link' );
-remove_action( 'wp_head', 'index_rel_link' ); 
-remove_action( 'wp_head', 'parent_post_rel_link_wp_head', 10, 0 ); 
-remove_action( 'wp_head', 'start_post_rel_link', 10, 0 ); 
+remove_action( 'wp_head', 'index_rel_link' );
+remove_action( 'wp_head', 'parent_post_rel_link_wp_head', 10, 0 );
+remove_action( 'wp_head', 'start_post_rel_link', 10, 0 );
 remove_action( 'wp_head', 'wp_shortlink_wp_head', 10, 0 );
-remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 ); 
+remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0 );
 remove_action( 'wp_head', 'wp_generator' );
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
-remove_action( 'wp_print_styles', 'print_emoji_styles' );  
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
 function most_commented_posts($no_posts = 10, $show_pass_post = false, $duration='30') {
 global $wpdb;
@@ -101,13 +101,13 @@ function remove_all_media_buttons()
 add_action('admin_init', 'remove_all_media_buttons');
 
 function is_crawler() {
-	$userAgent = strtolower($_SERVER['HTTP_USER_AGENT']); 
-	$spiders = array('Googlebot', 'Baiduspider',  'Yahoo! Slurp', 'YodaoBot',  'msnbot' ); 
-	foreach ($spiders as $spider) { 
-		$spider = strtolower($spider); 
-		if (strpos($userAgent, $spider) !== false) { return true; } 
-	} 
-	return false; 
+	$userAgent = strtolower($_SERVER['HTTP_USER_AGENT']);
+	$spiders = array('Googlebot', 'Baiduspider',  'Yahoo! Slurp', 'YodaoBot',  'msnbot' );
+	foreach ($spiders as $spider) {
+		$spider = strtolower($spider);
+		if (strpos($userAgent, $spider) !== false) { return true; }
+	}
+	return false;
 }
 
 function filter_where($where = '') {
@@ -145,14 +145,14 @@ function move_duoshuo_js_to_footer() {
 	global $duoshuoPlugin;
 	remove_action('wp_print_scripts', array($duoshuoPlugin, 'appendScripts'));
 }
- 
+
 function add_duoshuo_js_to_footer(){
 	global $duoshuoPlugin;
 	add_action('wp_footer',array($duoshuoPlugin, 'appendScripts'));
 }
 
 //RedBuild Taxonomies ,no parents category
-add_action( 'init', 'build_taxonomies', 0 );  
+add_action( 'init', 'build_taxonomies', 0 );
 function build_taxonomies() {
   register_taxonomy( 'category', 'post', array(
 		'hierarchical' => true,
@@ -186,7 +186,7 @@ function my_css_attributes_filter($var) {
 
 //image server location
 function img_url(){
-	echo 'https://img.maxbeta.com'; 
+	echo 'https://img.maxbeta.com';
 }
 
 // add widget support
@@ -200,6 +200,17 @@ if (function_exists('register_sidebar')) {
 		'before_title'  => '',
 		'after_title'   => ''
 	));
+
+	register_sidebar(array(
+		'name' => 'SideBar Banner',
+		'id'   => 'sb_banner',
+		'description'   => 'SideBar Banner Widget',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => ''
+	));
+
 }
 
 ?>
