@@ -210,6 +210,16 @@ if (function_exists('register_sidebar')) {
 		'after_title'   => ''
 	));
 
+	register_sidebar(array(
+		'name' => '300x250 ADS',
+		'id'   => '300x250-Ads',
+		'description'   => 'SideBar Ads Widget',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => ''
+	));
+
 }
 
 ?>
