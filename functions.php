@@ -118,7 +118,7 @@ function filter_where($where = '') {
 
 function video_tag(){
 	if (has_tag('video')){
-	echo '<span style="background: transparent url(http://imgcdn.sinaapp.com/new-code-h/images/sprite.png) no-repeat 0 -407px; padding-left: 16px;">&nbsp;</span>';
+	echo '<span class="has_vid">&nbsp;</span>';
 	}
 }
 

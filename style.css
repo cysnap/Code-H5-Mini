@@ -95,6 +95,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .attachment-thumbnail{border:1px solid #CCC;margin:0 3px;padding:1px;}
 .tagcloud a{line-height:120%;text-align:center;color:#036;padding:0 3px;}
 .tagcloud a:hover{background-color:#6994B9;color:#FFF;text-decoration:none;}
+.has_vid {background: transparent url(images/sprite.png) no-repeat 0 -407px; padding-left: 16px;}
 
 /* Entry */
 .entry{padding:0;margin:0 0 5px 0;}
