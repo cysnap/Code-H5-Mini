@@ -126,8 +126,7 @@ function video_tag(){
 function appthemes_add_quicktags() {
 ?>
     <script type="text/javascript">
-    QTags.addButton( 'eg_full_img', 'full_img', '<img class="aligncenter" src="http://img.maxbeta.com/uploads/<?php echo date('Y/m'); ?>/" alt="">', '', '', '', 201 );
-    QTags.addButton( 'eg_yk_vid', 'yk_vid', '<iframe src="http://player.youku.com/embed/" height="350" width="560" frameborder="0"></iframe>', '', '', '', 201 );
+    QTags.addButton( 'eg_full_img', 'full_img', '<img class="aligncenter" src="https://img.maxbeta.com/uploads/<?php echo date('Y/m'); ?>/" alt="">', '', '', '', 201 );
     </script>
 <?php
 }
