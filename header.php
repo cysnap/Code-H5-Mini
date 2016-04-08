@@ -26,7 +26,7 @@
 
 <header>
 	<div class="nova-l-h">
-			<div class="nova-l"><a href="<?php echo get_settings('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.gif" height="60px" alt="<?php bloginfo('name'); ?>" /></a></div>
+			<div class="nova-l"><a href="<?php echo get_settings('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.gif" class="logo" alt="<?php bloginfo('name'); ?>" /></a></div>
 			<div class="nova-r">
 				<?php if(is_home() || is_single()) : ?>
 					<div class="flat_image">

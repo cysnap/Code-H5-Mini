@@ -1,4 +1,4 @@
-/*  
+/*
 Theme Name:Code-H5-Mini
 Theme URI:http://www.maxbeta.com/about
 Description:这是一个比较简洁的HTML5主题，适用于更新比较频繁的资讯类网站。
@@ -14,6 +14,7 @@ h1,h2,h3,h4{font-weight:normal;}
 a{color:#036;text-decoration:none;}
 a:visited{color:#036;text-decoration:none;}
 a:hover{color:#79A5D6;text-decoration:none;}
+.logo{height:60px;top:35px;position:relative;}
 .comment-submit,.content h2,.search-input,.form-textarea,input{font:12px "Microsoft YaHei","宋体","Segoe UI",Tahoma,Arial;}
 .content h2{margin:0;font-size:16px;font-weight:bold;line-height:130%;padding:4px;color:#0A328C;text-shadow: #B3D9E8 0px 0px 3px;}
 .content h2 a,.content h2 a:visited{color:#0A328C;text-decoration:none;letter-spacing: 1px;}
@@ -24,11 +25,11 @@ a:hover{color:#79A5D6;text-decoration:none;}
 .clearfix{clear:both;}
 .nova-l{float:left;}
 .nova-r{float:right;}
-.nova-l-h{width:950px;margin:15px auto 20px;}
+.nova-l-h{width:950px;margin:0 auto;}
 .aligncenter{display:block;margin:0 auto;}
 /* Structure */
 main{margin:5px auto 10px;width:950px;text-align:left;overflow:hidden;display:block;}
-header{padding:10px 0 0 0;margin: 0 auto;text-align: left;background: #F1F9FC url(images/header_bg.jpg);}
+header{padding:10px 0 0 0;margin: 0 auto;text-align: left;background: #F1F9FC url(images/header_bg.jpg) repeat-x 100% 0px;}
 .content{width:635px;float:left;margin:5px 0 0;}
 .sidebar{width:300px;float:right;}
 footer{clear:both;border-top: 1px solid #eee;background: #2b3d4c;}
@@ -48,7 +49,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .flat_image ul li{float:left;width: 184px;display:block;margin:2px 3px;}
 .flat_image ul li:hover{opacity:0.6;}
 .flat_image ul li a{color:white;display:block;}
-.flat_image ul li a img {width: 182px;height:140px;border:1px solid #fff;transition: all 0.3s ease-in;}
+.flat_image ul li a img {width: 182px;height:100px;border:1px solid #fff;transition: all 0.3s ease-in;}
 .flat_image ul li a img:hover{border:1px solid #FFF6BF;}
 .flat_image ul li a span{padding:5px;width:172px;margin: -46px 1px 1px;position: absolute;background: rgba(121,165,214,0.7);overflow: hidden;z-index: 100;display: block;line-height:16px;text-shadow: 0 0 15px #000;transition:all 0.3s ease-in;}
 .flat_image ul li a span:hover{background-color:#FFF6BF;}
