@@ -231,7 +231,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 @media screen and (max-width: 800px) {
 	.nav-icon,nav a:nth-child(n+3),.flat_image,.flashNews,.post-bottom,.headflash_border,.post_navigation,.nova-l-h>.nova-r,.fuss{display:none;}
 	main,.headrcmd,footer{width:100%}
-	.logo{top:0;}
+	.logo{top:-10px;max-height:45px;width:auto;}
 	.nav nav {width:100%;padding:0;}
 	.headflash,.headrcmd{height:auto;}
 	.nova-l-h,.content,.footer-credits,.headsgst{width:auto;margin:0 auto;float:none;}
