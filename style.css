@@ -229,8 +229,9 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 
 /*Media Queries*/
 @media screen and (max-width: 800px) {
-	.nav-icon,nav a:nth-child(n+3),.flat_image,.sidebar,.flashNews,.post-bottom,.headflash_border,.post_navigation,.nova-l-h>.nova-r,.fuss{display:none;}
+	.nav-icon,nav a:nth-child(n+3),.flat_image,.flashNews,.post-bottom,.headflash_border,.post_navigation,.nova-l-h>.nova-r,.fuss{display:none;}
 	main,.headrcmd,footer{width:100%}
+	.logo{top:0;}
 	.nav nav {width:100%;padding:0;}
 	.headflash,.headrcmd{height:auto;}
 	.nova-l-h,.content,.footer-credits,.headsgst{width:auto;margin:0 auto;float:none;}
@@ -242,6 +243,9 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 	.entry p img{width:95%;height:95%;}
 	.search{width:150px;}
 	.search-input{width:110px;}
+	/*sidebar queries change*/
+	.sidebar{width:auto;float:none;margin:0 auto;}
+	.sidebar > ul > li{width:100%;margin:0 auto;}
+	.sidebar > ul > li:nth-child(-n+2),.sidebar > ul > li:nth-child(5){display:none}
 	.pb_ads{display:block;}
-	.logo{top:0;}
 }
