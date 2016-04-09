@@ -22,7 +22,7 @@
 		</li>
 
 		<?php } ?>
-		
+
 		<?php if ( !is_home() && !is_crawler() ) { ?>
 		<li>
 			<h2 class="sidebar-title">最新文章</h2>
@@ -32,9 +32,9 @@
 			<div class="clearfix"></div>
 		</li>
 		<?php } ?>
-		
+
 		<?php if ( is_home() ) { ?>
-		
+
 		<li>
 			<h2 class="sidebar-title">本周热门</h2>
 			<div class="notice">
@@ -47,6 +47,7 @@
 		<li>
 			<h2 class="sidebar-title">编辑推荐</h2>
 			<div class="sidebar-rcmd-content">
+				<?php wp_reset_query(); ?>
 				<?php add_filter('posts_where', 'filter_where');?>
 				<?php query_posts($query_string . '&meta_key=views&orderby=meta_value_num&order=DESC&showposts=12'); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -59,8 +60,9 @@
 						</dd>
 					</dl>
 				<?php endwhile; else: ?>
-				<?php endif; wp_reset_query(); ?> 
+				<?php endif;?>
 				<?php remove_filter('posts_where', 'filter_where');?>
+				<?php wp_reset_query(); ?>
 			</div>
 		</li>
 
@@ -73,10 +75,10 @@
 				</ul>
 				<div class="clearfix"></div>
 			</div>
-			
+
 		</li>
 		<?php } ?>
-		
+
 
 		<?php if ( is_single() && !is_attachment()) { ?>
 		<li>
@@ -98,6 +100,6 @@
 			<div class="sidebar-comment"><?php most_recent_comments(); ?></div>
 		</li>
 		<?php } ?>
-		
+
 	</ul>
 </div>
