@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php if ( is_home() && !is_page() ) : ?>
+<?php if ( is_home() && !is_paged() ) : ?>
 <div class="headflash">
 	<script>$(function() {$("#rslides").responsiveSlides({auto: true,pager: false,speed: 500,maxwidth: 260})});</script>
 	<div class="flashNews" id="rslides">
@@ -41,7 +41,7 @@
 <?php endif; ?>
 
 <div class="post-block">
-	<div class="pb_ads"><?php dynamic_sidebar( '468x60-Ads' ); ?></div>
+	<?php wp_reset_query(); ?>
 	<?php $rcmdcounter = 0; ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	<?php $rcmdcounter++; ?>
