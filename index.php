@@ -54,15 +54,15 @@
 			<?php endif; ?>
 			<span class="post-count"><?php echo($rcmdcounter); ?>#</span>
 		</div>
-		
+
 		<div class="entry clearfix">
 			<div class="nova-r">
-				<?php 
+				<?php
 					$key = "cover_s";
 					$cover_s_meta = get_post_meta($post->ID,$key,TRUE);
 					if ($cover_s_meta != ""):
 				?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $cover_s_meta;?>" style="max-width:120px;padding:5px;"></a>
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $cover_s_meta;?>&w=120&h=92" style="max-width:120px;padding:5px;"></a>
 				<?php else: ?>
 				<?php
 				$the_cat = get_the_category();
@@ -75,7 +75,7 @@
 				<?php endif; ?>
 			</div>
 		<?php the_content('',TRUE,'');?>
-		
+
 		</div>
 
 		<div class="post-bottom clearfix">
