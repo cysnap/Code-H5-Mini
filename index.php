@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<?php if ( is_home()) : ?>
+<?php if ( is_home() && !is_page() ) : ?>
 <div class="headflash">
 	<script>$(function() {$("#rslides").responsiveSlides({auto: true,pager: false,speed: 500,maxwidth: 260})});</script>
 	<div class="flashNews" id="rslides">
