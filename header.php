@@ -35,7 +35,7 @@
 							<?php query_posts($query_string . 'meta_key=flat_image&posts_per_page=3'); ?>
 							<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 							<li>
-								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php $key="flat_image"; echo get_post_meta($post->ID, $key, true); ?>&w=182&h=100"/>
+								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php $key="flat_image"; echo get_post_meta($post->ID, $key, true); ?>&w=182&h=100&crop-to-fit"/>
 								<span><?php the_title(); ?></span></a>
 							</li>
 							<?php endwhile; endif; ?>
