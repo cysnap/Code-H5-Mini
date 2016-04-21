@@ -172,7 +172,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .form-textarea{width:90%;height:120px;}
 .form-submit{width:115px;height:30px;}
 .comment-main-content {border-top:1px dotted #AAA;padding:10px 0;overflow:hidden;}
-.cm-odd {background-color:#f7f7f7;}
+.comment-main-content:nth-child(odd) {background-color:#f7f7f7;}
 
 /* Footer */
 .footer-credits{width:950px;height:auto;padding:20px;margin:0 auto;}

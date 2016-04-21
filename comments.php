@@ -59,7 +59,7 @@
 				
 				<?php if ( get_comment_type() == "comment" ) : ?>
 				
-					<div class="comment-main-content <?php echo($commentcounter % 2 == 0 ? 'cm-odd' : ''); ?>" id="comment-<?php comment_ID() ?>" >
+					<div class="comment-main-content" id="comment-<?php comment_ID() ?>" >
 						
 						<div class="commentmeta"><span><a href="#comment-<?php comment_ID() ?>" title="评论">#</a></span> <span><strong>第 <?php echo $commentcounter; ?> 楼</strong> </span> <span id="commentauthor-<?php comment_ID() ?>"> <?php comment_author() ?> </span><span>发表于：<?php comment_date('Y年m月d日 l') ?> <?php comment_time() ?><?php if ($comment->comment_approved == '0') : ?>[审核中！]<?php endif; ?> </span> </div>
 						<div id="commentText-<?php comment_ID() ?>" ><?php comment_text() ?></div>
