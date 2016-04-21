@@ -125,7 +125,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .sidebar-rcmd-content dl{word-break: break-all;border-bottom: 1px dashed #CCC;padding:10px 5px;}
 .sidebar-rcmd-content dl:nth-child(2n){background-color:#F7FBF3;}
 .sidebar-rcmd-content dl:nth-child(2n-1){background-color:#F7FFD4;}
-.thumbnail{float:right;margin:0 0 0 5px;border:1px solid #ccc;max-width:80px;max-height:40px;}
+.thumbnail{float:right;margin:0 0 0 5px;border:1px solid #ccc;max-width:80px;max-height:60px;}
 .sidebar-rcmd-content small{color:#555;}
 .sidebar-rssfeed{padding-left:20px;line-height:19px;font-size:14px;background:url(images/sprite.png) no-repeat 0 -73px;}
 .sidebar-rssfeed a,.sidebar-rssfeed a:hover{color:#CB5C11;}
