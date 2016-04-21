@@ -157,13 +157,14 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .comments-title{background:transparent url(images/sprite.png) no-repeat 0 -132px;padding-left:22px;}
 .comments-o a,.comments-o a:hover{color:#CB5C11;font-size:12px;}
 .comment,.trackback,.pingback{margin:5px 0;padding:5px 10px;}
-.comment-list{background-color:#FDFDFD;margin:0 -5px;border-bottom:1px dotted #CCC;}
+.comment-list{background-color:#FDFDFD;margin:0 -5px;border-bottom:1px dotted #CCC;counter-reset:section;}
 .comment-list p{font-size:14px;line-height:150%;padding:5px 10px;}
 .comment-list span{font-size:11px;}
 .comment-list blockquote{margin:10px;padding:5px;border:1px dashed #ccc;background:#FEFEFE;}
 .comment-list blockquote blockquote{margin:5px 10px;padding:5px;border:1px dashed #ccc;background:#f7f7f7;}
 .comment-bottom {padding:5px;font-size:11px;float:right;}
 .commentmeta{color:#036;font-size:11px;padding:3px 10px;}
+.commentmeta::before{counter-increment:section;content: "＃第 " counter(section) " 楼";}
 .commentmeta span {border-bottom: 1px solid #E1F3F7;padding-bottom: 3px;}
 #commentform{margin:5px 0;}
 .form-textarea,#trackback{border:1px solid #CCCCCC;padding:2px 5px 2px 5px;background:#FAFAFA;}
