@@ -27,24 +27,18 @@
 <header>
 	<div class="nova-l-h">
 			<div class="nova-l"><a href="<?php echo get_settings('home'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.gif" class="logo" alt="<?php bloginfo('name'); ?>" /></a></div>
-			<div class="nova-r">
-				<?php if(is_home() || is_single()) : ?>
-					<div class="flat_image">
-						<ul>
-							<?php wp_reset_query(); ?>
-							<?php query_posts($query_string . 'meta_key=flat_image&posts_per_page=3'); ?>
-							<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-							<li>
-								<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php $key="flat_image"; echo get_post_meta($post->ID, $key, true); ?>&w=182&h=100&crop-to-fit"/>
-								<span><?php the_title(); ?></span></a>
-							</li>
-							<?php endwhile; endif; ?>
-							<?php wp_reset_query(); ?>
-						</ul>
-					</div>
-				<?php else: ?>
-					<?php dynamic_sidebar('468x60-Ads'); ?>
-				<?php endif; ?>
+			<div class="flat_image">
+				<ul>
+					<?php wp_reset_query(); ?>
+					<?php query_posts($query_string . 'meta_key=flat_image&posts_per_page=3'); ?>
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<li>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php $key="flat_image"; echo get_post_meta($post->ID, $key, true); ?>&w=182&h=100&crop-to-fit"/>
+						<span><?php the_title(); ?></span></a>
+					</li>
+					<?php endwhile; endif; ?>
+					<?php wp_reset_query(); ?>
+				</ul>
 			</div>
 			<div class="clearfix"></div>
 	</div>
