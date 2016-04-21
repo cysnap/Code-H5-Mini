@@ -54,7 +54,7 @@
 					<dl>
 						<dt><h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"> <?php echo mb_strimwidth(get_the_title(), 0, 37, '...'); ?> </a></h4></dt>
 						<dd>
-							<p><?php if ( get_post_meta( get_the_ID(), 'cover_s', true ) ) : ?><a href="<?php the_permalink() ?>" rel="bookmark"><img class="thumbnail" src="<?php echo get_post_meta( get_the_ID(), 'cover_s', true ) ?>" alt="<?php the_title(); ?>" /></a>
+							<p><?php if ( get_post_meta( get_the_ID(), 'cover_s', true ) ) : ?><a href="<?php the_permalink() ?>" rel="bookmark"><img class="thumbnail" src="<?php echo get_post_meta( get_the_ID(), 'cover_s', true ) ?>&w=80&h=40&crop-to-fit" alt="<?php the_title(); ?>" /></a>
 <?php endif; ?>
 							<?php echo mb_strimwidth(strip_tags(apply_filters('the_excerpt', $post->post_content)), 0, 110,"..."); ?></p>
 						</dd>
