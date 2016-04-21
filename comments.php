@@ -36,7 +36,6 @@
 						<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
 						<span><small>(提交即表示您同意遵守我们的<a href="/about?ref=comment_bottom#policy" target="_blank" rel="nofollow">使用规则</a>)</small></span>
 					</p>
-					<p><?php show_ads(2); ?></p>
 				<?php do_action('comment_form', $post->ID); ?>
 			</form>
 			
