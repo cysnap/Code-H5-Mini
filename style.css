@@ -55,7 +55,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .flat_image ul li a span:hover{background-color:#FFF6BF;}
 /* Header Search */
 .search{float:right;margin:6px 0;}
-.search-input{padding:5px;border-radius:15px;border:0;color:#6080A5;width:300px;}
+.search-input{padding:5px 10px;border-radius:15px;border:0;color:#6080A5;width:28px;}
 .postform{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:left;}
 .postform_r{width:140px;margin:3px 0 9px 4px;border:1px solid #ddd;background:transparent;color:#6080A5;float:right;}
 
