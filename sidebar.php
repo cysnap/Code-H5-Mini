@@ -44,27 +44,6 @@
 				</ul>
 			</div>
 		</li>
-		<li>
-			<h2 class="sidebar-title">编辑推荐</h2>
-			<div class="sidebar-rcmd-content">
-				<?php wp_reset_query(); ?>
-				<?php add_filter('posts_where', 'filter_where');?>
-				<?php query_posts($query_string . '&meta_key=views&orderby=meta_value_num&order=DESC&showposts=12'); ?>
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<dl>
-						<dt><h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"> <?php echo mb_strimwidth(get_the_title(), 0, 37, '...'); ?> </a></h4></dt>
-						<dd>
-							<p><?php if ( get_post_meta( get_the_ID(), 'cover_s', true ) ) : ?><a href="<?php the_permalink() ?>" rel="bookmark"><img class="thumbnail" src="<?php echo get_post_meta( get_the_ID(), 'cover_s', true ) ?>&w=80&h=60&crop-to-fit" alt="<?php the_title(); ?>" /></a>
-<?php endif; ?>
-							<?php echo mb_strimwidth(strip_tags(apply_filters('the_excerpt', $post->post_content)), 0, 110,"..."); ?></p>
-						</dd>
-					</dl>
-				<?php endwhile; else: ?>
-				<?php endif;?>
-				<?php remove_filter('posts_where', 'filter_where');?>
-				<?php wp_reset_query(); ?>
-			</div>
-		</li>
 
 		<li>
 			<h2 class="sidebar-title">标签和主题排行榜</h2>
