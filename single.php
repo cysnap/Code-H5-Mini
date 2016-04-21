@@ -4,12 +4,12 @@
 
 	<div class="fuss nova">您的位置： <a href="<?php echo get_settings('home'); ?>" title="首页">首页</a>&nbsp;&raquo;&nbsp;<?php the_category(' &gt; '); ?>&nbsp;&raquo;&nbsp;<a href="<?php the_permalink() ?>" rel="bookmark" title="到 <?php the_title(); ?> 的永久链接"><?php the_title(); ?></a></div>
 
-	<div class="meta nova">
+	<article class="meta nova">
 
-		<div class="post-single-title">
+		<header class="post-single-title">
 			<h2><?php the_title(); ?></h2>
 			<span class="post-single-info"><?php the_time('Y-m-d H:i'); ?>&nbsp;&nbsp;&nbsp;&nbsp;<?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>&nbsp;&nbsp;&nbsp;&nbsp;<?php the_views(); ?>&nbsp;次浏览&nbsp;&nbsp;&nbsp;&nbsp;<?php comments_popup_link('评论', '1 条评论', '% 条评论'); ?></span>
-		</div>
+		</header>
 		
 		<div class="entry clearfix">
 		<?php if(!is_attachment()) :?>
@@ -25,11 +25,12 @@
 		</div>
 		<?php endif;?>
 		<?php the_content(); ?>
-		<?php dynamic_sidebar('468x60-Ads'); ?>
-		<span>编辑：<?php the_author();?>； 索引标签：<?php the_tags('',', ',''); ?></span>
+		<footer>
+			<?php dynamic_sidebar('468x60-Ads'); ?>
+			<span>编辑：<?php the_author();?>； 索引标签：<?php the_tags('',', ',''); ?></span>
+		</footer>
 		</div>
-	<div id="wumiiDisplayDiv"></div>
-	</div>
+	</article>
 
 	<?php comments_template(); ?>
 
