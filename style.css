@@ -45,7 +45,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 
 #random_quotes{color:#6994B9;margin:5px 20px 5px 0;display:block;}
 /* Flat Image*/
-.flat_image ul{overflow: hidden;border-radius: 5px;margin:10px auto;display:block;}
+.flat_image ul{overflow: hidden;border-radius: 5px;margin:10px auto;display:block;float:right;}
 .flat_image ul li{float:left;width: 184px;display:block;margin:2px 3px;}
 .flat_image ul li:hover{opacity:0.6;}
 .flat_image ul li a{color:white;display:block;}
