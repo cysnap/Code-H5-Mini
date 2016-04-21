@@ -89,7 +89,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .post-tags{float:left;padding:0 0 0 18px;background:url(images/sprite.png) no-repeat 0 -38px;}
 .post-bottom {background:#F5F5F5;border-bottom: 1px dashed #ccc;list-style:none;margin:0 -5px;padding:10px 5px;height:16px;}
 .post-single{margin:0 0 15px 0;overflow:hidden;}
-.post-single > header{color:#6994B9;text-align:center;padding-bottom:5px;margin-bottom:5px;border-bottom:#DDD solid 1px;}
+.post-single header{background:none;color:#6994B9;text-align:center;padding-bottom:5px;margin-bottom:5px;border-bottom:#DDD solid 1px;}
 .post-single-info{padding:5px;margin-right:5px;font-size:11px;}
 .post-single-info img{width:13px;height:13px;margin-bottom:-2px;}
 .post-single-cat-img{float:right;}
