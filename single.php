@@ -25,10 +25,8 @@
 		</div>
 		<?php endif;?>
 		<?php the_content(); ?>
-		<footer>
-			<?php dynamic_sidebar('468x60-Ads'); ?>
-			<span>编辑：<?php the_author();?>； 索引标签：<?php the_tags('',', ',''); ?></span>
-		</footer>
+		<?php dynamic_sidebar('468x60-Ads'); ?>
+		<span>编辑：<?php the_author();?>； 索引标签：<?php the_tags('',', ',''); ?></span>
 		</div>
 	</article>
 
