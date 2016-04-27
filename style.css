@@ -147,8 +147,8 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .list_archives{height:25px;}
 
 /*Tag Cloud*/
-.tag-cloud {width:300px;}
-.tag-cloud ul li{font-size:16px;list-style:none !important;}
+.tag-cloud {width:290px;}
+.tag-cloud ul li{font-size:16px;list-style:none;background:none !important;}
 .tag-cloud ul li a{background:#eef5e1;color:#036;display:block;line-height:14px;padding:10px 5px 10px 10px;margin-left:-14px;}
 .tag-cloud ul li a:hover{background:#e4efd5;color:#79A5D6;text-decoration:none}
 .tag-cloud ul:nth-child(1){width:35%;float:left;}
@@ -249,6 +249,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 	/*sidebar queries change*/
 	.sidebar{width:auto;float:none;margin:0 auto;}
 	.sidebar > ul > li{width:100%;margin:0 auto;}
-	.sidebar > ul > li:nth-child(-n+2),.sidebar > ul > li:nth-child(5),.sidebar > ul > li:nth-child(4){display:none}
+	.sidebar > ul > li:nth-child(-n+2),.sidebar > ul > li:nth-child(4){display:none}
+	.tag-cloud{width:auto;margin:0 auto;}
 	.pb_ads{display:block;}
 }

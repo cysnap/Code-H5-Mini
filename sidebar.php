@@ -47,7 +47,7 @@
 
 		<li>
 			<h2 class="sidebar-title">标签和主题排行榜</h2>
-			<div class="tag-cloud">
+			<div class="tag-cloud notice">
 				<?php wp_tag_cloud('smallest=12&largest=12&number=10&format=list&orderby=count&order=DESC'); ?>
 				<ul>
 				<?php wp_list_categories('number=10&orderby=count&order=DESC&title_li=0&depth=-1'); ?>
