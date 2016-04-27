@@ -127,9 +127,6 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .sidebar-rcmd-content dl:nth-child(2n-1){background-color:#F7FFD4;}
 .thumbnail{float:right;margin:0 0 0 5px;border:1px solid #ccc;max-width:80px;max-height:60px;}
 .sidebar-rcmd-content small{color:#555;}
-.sidebar-rssfeed{padding-left:20px;line-height:19px;font-size:14px;background:url(images/sprite.png) no-repeat 0 -73px;}
-.sidebar-rssfeed a,.sidebar-rssfeed a:hover{color:#CB5C11;}
-.sidebar-rssitems a{color:#666;}
 .sidebar-title{padding:2px 0 0;}
 .sidebar-title a{font-size:11px;}
 .sidebar-widget{margin:5px 0 5px 0;color:#666;}
@@ -142,9 +139,6 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .sidebar-count{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
 .mobile {background: url(images/mobile.gif) no-repeat 0 0;border: 1px solid #E1F3F7;height:60px;}
 .sbsgst{background: transparent;border:1px solid #E1F3F7;margin:5px 0;list-style:none;padding:5px;}
-
-/*list_archives*/
-.list_archives{height:25px;}
 
 /*Tag Cloud*/
 .tag-cloud {width:290px;overflow:hidden;}
