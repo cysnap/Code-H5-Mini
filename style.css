@@ -147,7 +147,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .list_archives{height:25px;}
 
 /*Tag Cloud*/
-.tag-cloud {width:290px;}
+.tag-cloud {width:290px;overflow:hidden;}
 .tag-cloud ul li{font-size:16px;list-style:none;background:none !important;}
 .tag-cloud ul li a{background:#eef5e1;color:#036;display:block;line-height:14px;padding:10px 5px 10px 10px;margin-left:-14px;}
 .tag-cloud ul li a:hover{background:#e4efd5;color:#79A5D6;text-decoration:none}
