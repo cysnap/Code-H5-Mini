@@ -147,10 +147,12 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .list_archives{height:25px;}
 
 /*Tag Cloud*/
-.wp-tag-cloud {width:85px;float:left;}
-.wp-tag-cloud li{font-size:16px;list-style:none;}
-.wp-tag-cloud li a{background:#eef5e1;color:#036;display:block;line-height:14px;padding:10px 5px 10px 10px;margin-left:-14px;}
-.wp-tag-cloud li a:hover{background:#e4efd5;color:#79A5D6;text-decoration:none}
+.tag-cloud {width:300px;}
+.tag-cloud ul li{font-size:16px;list-style:none !important;}
+.tag-cloud ul li a{background:#eef5e1;color:#036;display:block;line-height:14px;padding:10px 5px 10px 10px;margin-left:-14px;}
+.tag-cloud ul li a:hover{background:#e4efd5;color:#79A5D6;text-decoration:none}
+.tag-cloud ul:nth-child(1){width:35%;float:left;}
+.tag-cloud ul:nth-child(2){width:63%;float:right;}
 
 /* Comments */
 .comment-main{background-color: #F5F8FD;border:1px solid #C8D8F2;margin:5px 0;padding:5px;}

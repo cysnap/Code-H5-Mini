@@ -47,14 +47,13 @@
 
 		<li>
 			<h2 class="sidebar-title">标签和主题排行榜</h2>
-			<div class="notice nova">
+			<div class="tag-cloud">
 				<?php wp_tag_cloud('smallest=12&largest=12&number=10&format=list&orderby=count&order=DESC'); ?>
-				<ul style="width:195px;float:right;" class="wp-tag-cloud">
+				<ul>
 				<?php wp_list_categories('number=10&orderby=count&order=DESC&title_li=0&depth=-1'); ?>
 				</ul>
-				<div class="clearfix"></div>
 			</div>
-
+			<div class="clearfix"></div>
 		</li>
 		<?php } ?>
 
