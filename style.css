@@ -243,7 +243,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 	/*sidebar queries change*/
 	.sidebar{width:auto;float:none;margin:0 auto;}
 	.sidebar > ul > li{width:100%;margin:0 auto;}
-	.sidebar > ul > li:nth-child(-n+2),.sidebar > ul > li:nth-child(4){display:none}
+	.sidebar > ul > li:nth-child(-n+2){display:none}
 	.tag-cloud{width:auto;margin:0 auto;}
 	.pb_ads{display:block;}
 }
