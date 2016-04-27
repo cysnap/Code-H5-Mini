@@ -54,7 +54,7 @@
 			<?php endif; ?>
 			<span class="post-count"><?php echo($rcmdcounter); ?>#</span>
 		</div>
-
+		
 		<div class="entry clearfix">
 			<div class="nova-r">
 				<?php
@@ -75,9 +75,9 @@
 				<?php endif; ?>
 			</div>
 		<?php the_content('',TRUE,'');?>
-
+		
 		</div>
-
+		
 		<div class="post-bottom clearfix">
 			<span class="post-info"><?php the_author(); ?>&nbsp;发表于 &nbsp;: <time><?php the_time('Y-m-d H:i'); ?></time>&nbsp;-&nbsp; 主题 : <?php foreach((get_the_category()) as $category) {echo $category->cat_name . ' ';}?>&nbsp;-&nbsp;<?php the_views($display = false); ?>&nbsp;次浏览</span>
 			<span class="nova-r">
@@ -85,7 +85,7 @@
 			</span>
 		</div>
 	</div>
-
+	
 	<?php endwhile; ?>
 	</div>
 	<?php pagenavi(); else : ?>
