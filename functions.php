@@ -132,23 +132,6 @@ function appthemes_add_quicktags() {
 }
 add_action( 'admin_print_footer_scripts', 'appthemes_add_quicktags' );
 
-//duoshuo js move to bottom ,remove from frontpage
-
-function move_duoshuo_js() {
-	global $duoshuoPlugin;
-	remove_action('wp_print_footer_scripts', array($duoshuoPlugin, 'appendScripts'));
-}
-
-add_action('init', 'move_duoshuo_js_to_footer');
-function move_duoshuo_js_to_footer() {
-	global $duoshuoPlugin;
-	remove_action('wp_print_scripts', array($duoshuoPlugin, 'appendScripts'));
-}
-
-function add_duoshuo_js_to_footer(){
-	global $duoshuoPlugin;
-	add_action('wp_footer',array($duoshuoPlugin, 'appendScripts'));
-}
 
 //RedBuild Taxonomies ,no parents category
 add_action( 'init', 'build_taxonomies', 0 );
