@@ -43,15 +43,15 @@ function most_recent_comments() {
 	if ($comments) {
 		foreach ($comments as $comment) {
 			$url = '<a href="'. get_permalink($comment->comment_post_ID).'#comment-'.$comment->comment_ID .'">'.get_the_title($comment->comment_post_ID).'</a>';
-			echo '<dl><dd>';
+			echo '<dl><dt>';
 			echo strip_tags($comment->comment_content,'');
-			echo '</dd><dt><span>';
+			echo '</dt><dd><span>';
 			echo $comment->comment_author;
 			echo ' 在 ';
 			echo $comment->comment_date;
 			echo ' 对新闻：</span>';
 			echo $url;
-			echo '<span> 发表的评论</span></dt></dl>';
+			echo '<span> 发表的评论</span></dd></dl>';
 		}
 	}
 }
