@@ -55,5 +55,5 @@
 	</div>
 </header>
 
-<main role="main">
+<main>
 	<div class="content">
