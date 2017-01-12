@@ -133,8 +133,8 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .sidebar-tags a{color:#666;}
 .sidebar-comment{background: #F1F9FC url(images/right_BG.jpg) repeat-x 100% 0px;}
 .sidebar-comment dl{border-bottom:1px dashed #CCC;padding:5px;}
-.sidebar-comment dd{font-size:14px;line-height:120%;word-break: break-all;}
-.sidebar-comment dt{text-align:right; line-height:110%; font-size:11px;color:gray; padding:5px 0 0 0;}
+.sidebar-comment dt{font-size:14px;line-height:120%;word-break: break-all;}
+.sidebar-comment dd{text-align:right; line-height:110%; font-size:11px;color:gray; padding:5px 0 0 0;}
 .sidebar-comment dl dt span {font-size:11px;font-style:italic;}
 .sidebar-count{float:right;text-align:right;color:#777;text-indent: 0; font-size:12px;}
 .mobile {background: url(images/mobile.gif) no-repeat 0 0;border: 1px solid #E1F3F7;height:60px;}
