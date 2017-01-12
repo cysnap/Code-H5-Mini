@@ -44,7 +44,10 @@
 	</div>
 	<div class="nav">
 		<nav>
-			<?php $h5menu = wp_nav_menu(array('theme_location'=>'header-menu','container'=>false,'items_wrap'=>'%3$s','echo'=>false,)); $find=array('><a','li'); $replace=array('','a'); echo str_replace($find,$replace,$h5menu); ?>
+			<?php $menuParameters = array('theme_location' => 'header-menu','echo' => false, 'items_wrap' => '%3$s',);
+			echo strip_tags(wp_nav_menu($menuParameters), '<a>');
+			?>
+			<!-- <?php $h5menu = wp_nav_menu(array('theme_location'=>'header-menu','container'=>false,'items_wrap'=>'%3$s','echo'=>false,)); $find=array('><a','li'); $replace=array('','a'); echo str_replace($find,$replace,$h5menu); ?> -->
 			<div class="search">
 			<?php if (!is_search()) {$search_text = "站内新闻搜索";} else {$search_text = "$s";} ?>
 				<form method="get" class="searchform" name="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
