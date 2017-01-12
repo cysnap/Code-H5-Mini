@@ -9,7 +9,7 @@
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<figure>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank">
-					<img src="<?php $key="flash_image"; echo get_post_meta($post->ID, $key, true); ?>"/>
+					<img alt="<?php the_title(); ?>" src="<?php $key="flash_image"; echo get_post_meta($post->ID, $key, true); ?>"/>
 					<span><?php the_title(); ?></span>
 				</a>
 			</figure>
