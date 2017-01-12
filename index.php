@@ -50,7 +50,7 @@
 			<?php if(is_sticky()) : ?>
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a><?php _e('<span style="color:red;">[置顶] </span>'); ?></h2>
 			<?php else: ?>
-			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a><?php video_tag(); ?><?php $diff = strtotime(date('Y-m-d H:i:s'))-strtotime(get_the_time('Y-m-d H:i:s')); if ($diff <= -25100){ ?><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/new-icon.gif"><?php } ?></h2>
+			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" target="_blank"><?php the_title(); ?></a><?php video_tag(); ?><?php $diff = strtotime(date('Y-m-d H:i:s'))-strtotime(get_the_time('Y-m-d H:i:s')); if ($diff <= -25100){ ?><img alt="新" src="<?php echo get_stylesheet_directory_uri(); ?>/images/new-icon.gif"><?php } ?></h2>
 			<?php endif; ?>
 			<span class="post-count"><?php echo($rcmdcounter); ?>#</span>
 		</div>
@@ -62,7 +62,7 @@
 					$cover_s_meta = get_post_meta($post->ID,$key,TRUE);
 					if ($cover_s_meta != ""):
 				?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img src="<?php echo $cover_s_meta;?>&w=120&h=92&crop-to-fit" style="max-width:120px;padding:5px;"></a>
+				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><img alt="<?php the_title(); ?>" src="<?php echo $cover_s_meta;?>&w=120&h=92&crop-to-fit" style="max-width:120px;padding:5px;"></a>
 				<?php else: ?>
 				<?php
 				$the_cat = get_the_category();
@@ -71,7 +71,7 @@
 				$category_description = $the_cat[0]->category_description;
 				$category_link = get_category_link( $the_cat[0]->cat_ID );
 				?>
-				<a href="<?php echo $category_link; ?>" title="<?php echo $category_name; ?>"><img src="<?php img_url();?>/cat-img/<?php echo $category_slug; ?>.gif" /></a>
+				<a href="<?php echo $category_link; ?>" title="<?php echo $category_name; ?>"><img alt="<?php echo $category_name; ?>" src="<?php img_url();?>/cat-img/<?php echo $category_slug; ?>.gif" /></a>
 				<?php endif; ?>
 			</div>
 		<?php the_content('',TRUE,'');?>
