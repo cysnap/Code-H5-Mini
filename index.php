@@ -10,7 +10,7 @@
 			<figure>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" target="_blank">
 					<img src="<?php $key="flash_image"; echo get_post_meta($post->ID, $key, true); ?>"/>
-					<figcaption><?php the_title(); ?></figcaption>
+					<span><?php the_title(); ?></span>
 				</a>
 			</figure>
 			<?php endwhile; endif; ?>

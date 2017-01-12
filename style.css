@@ -73,7 +73,7 @@ a.current-menu-item {border-bottom: 2px solid #FFD324;}
 .flashNews {float:left;position:relative;width:260px;height:250px;overflow:hidden;border:1px solid #fff;}
 .flashNews figure{float:left;text-align:center;}
 .flashNews figure a {display:block;color:#6994B9;background:#EEE;}
-.flashNews figure a figcaption{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:38px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
+.flashNews figure a span{position: absolute;display: block;background: rgba(8, 100, 202, 0.34);line-height:38px;width:250px;color:#fff;padding:5px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;}
 .flashNews figure img {max-width:260px;height:auto;display:block;}
 /* Content */
 .post{padding:15px 5px 0;overflow:hidden;}
